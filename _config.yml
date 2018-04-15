@@ -4,8 +4,8 @@ highlighter:      rouge
 
 # Setup
 title:            caleb brenden
-tagline:          'work'
-description:      'Albuquerque, NM'
+tagline:          'click this tab bitch'
+description:      'albuquerque, nm'
 url:              https://fongandrew.github.io/hydeout
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -14,8 +14,8 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # sidebar_blog_link below.
 
 author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+  name:           'Caleb Brenden'
+  url:            https://twitter.com/calebbrenden
 
 paginate:         5
 # paginate_path:    '/page:num'
@@ -34,4 +34,4 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
-  repo:             https://github.com/fongandrew/hydeout
+  repo:             https://github.com/calebbreadsticks
