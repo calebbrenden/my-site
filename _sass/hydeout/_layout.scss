@@ -215,10 +215,13 @@ body {
 
 /* USE THESE TO CHANGE THE COLOR OF YOUR SOCIAL ICON LINKS */
 
+/* TRYING TO COMMENT THIS OUT TO SEE IF IT DELETES THE FILL
 
   svg {
     fill: rgba(0, 0, 0, 0.85);
   }
+
+  */
 
   &:hover, &:focus, &.active {
     svg { fill: #202020; }
