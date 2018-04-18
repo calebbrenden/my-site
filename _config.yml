@@ -17,8 +17,9 @@ author:
   name:           'Caleb Brenden'
   url:            https://twitter.com/calebbrenden
 
-paginate:         6
-# paginate_path:    '/page:num'
+paginate:         5
+paginate_path:    '/blog/page:num'
+                    #'/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
 plugins:
@@ -29,10 +30,10 @@ plugins:
 # Custom vars
 version:            3.6.0
 sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+sidebar_blog_link:  '/blog'   # By default, your home page is your blog
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
-                                #THIS IS A TEST COMMMETN
+                              
 github:
   repo:             https://github.com/calebbreadsticks
