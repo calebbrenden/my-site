@@ -17,7 +17,7 @@ author:
   name:           'Caleb Brenden'
   url:            https://twitter.com/calebbrenden
 
-paginate:         5
+paginate:         6
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
