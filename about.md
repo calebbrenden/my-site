@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Blog
+title: About
 sidebar_link: true
 ---
 
