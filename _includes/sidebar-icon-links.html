@@ -1,4 +1,6 @@
 <nav id="sidebar-icon-links">
+
+  <!--
   {% if site.github.repo %}
     <a id="github-link"
        class="icon" title="Github Project" aria-label="Github Project"
@@ -30,6 +32,7 @@
       {% assign search_page = node %}
     {% endif %}
   {% endfor %}
+-->
 
   {% if tags_page %}
     <a id="tags-link"
@@ -40,6 +43,7 @@
     </a>
   {% endif %}
 
+<!--
   {% if search_page %}
     <a id="search-link"
        class="icon{% if page.url == '/search' %} active{% endif %}"
@@ -48,6 +52,7 @@
       {% include svg/search.svg %}
     </a>
   {% endif %}
+-->
 
   {% include custom-icon-links.html %}
 </nav>
