@@ -3,8 +3,8 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            ⁄⁄CALEB BRENDEN
-tagline:          ⁄⁄HELLO⁄⁄
+title:            CALEB BRENDEN 
+tagline:          ⁄⁄ HI! ⁄⁄
 description:      'albuquerque, nm'
 url:              https://fongandrew.github.io/hydeout
 baseurl:          # the optional subpath of your site, e.g. "/blog"
