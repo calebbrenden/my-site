@@ -41,3 +41,7 @@ sidebar_blog_link:  '/blog'   # By default, your home page is your blog
                               
 github:
   repo:             https://github.com/calebbreadsticks
+
+encoding:           UTF-8
+
+
