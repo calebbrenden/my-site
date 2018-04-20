@@ -3,11 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            -----------------------------------------
-                  ---CALEB---------------------------------
-                  -----------------------------------------
-                  ----------------------BRENDEN------------
-                  -----------------------------------------
+title:            CALEB BRENDEN
 tagline:          HELLO!
 description:      'albuquerque, nm'
 url:              https://fongandrew.github.io/hydeout
