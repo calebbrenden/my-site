@@ -3,8 +3,13 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
+<<<<<<< HEAD
 title:            CALEB BRENDEN
 tagline:          HELLO!
+=======
+title:            ⁄⁄CALEB BRENDEN
+tagline:          ⁄⁄HELLO⁄⁄
+>>>>>>> parent of 1137182... CHANGED TITLE AGAIN
 description:      'albuquerque, nm'
 url:              https://fongandrew.github.io/hydeout
 baseurl:          # the optional subpath of your site, e.g. "/blog"
