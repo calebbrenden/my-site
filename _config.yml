@@ -1,6 +1,7 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
+parse_block_html: true
 
 # Setup
 title:            CALEB BRENDEN
