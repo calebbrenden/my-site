@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            CALEB BRENDEN
 tagline:          HEY!
-description:      'albuquerque, nm'
+description:      # albuquerque, nm
 url:              https://github.com/calebbreadsticks/calebbreadsticks.github.io/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
