@@ -13,9 +13,13 @@ $cyan: #75b5aa !default;
 $blue: #268bd2 !default;
 $brown: #8f5536 !default;
 
+/* FONTS AND FONT SIZES */
+
 $root-font-family: 'Cormorant', serif !default;
 $root-font-size: 1rem !default;
 $root-line-height: 1.5 !default;
+
+/* COLORS ON WEB PAGE */
 
 $body-color: $gray-5 !default;
 $body-muted: $gray-4 !default;
@@ -29,7 +33,10 @@ $padding-v: 1em !default;
 $padding-h: 1.5em !default;
 $heading-spacing: 0.5rem !default;
 $section-spacing: 2rem !default;
-$sidebar-width: 18rem !default;
+
+/* ORIGINAL SIDEBAR WIDTH WAS 18REM */
+
+$sidebar-width: 16rem !default;
 
 $large-breakpoint: 49rem !default;
 $large-font-size: 1.25rem !default;
@@ -40,6 +47,8 @@ $default-box-shadow: $box-shadow-size
                      $box-shadow-size
                      $box-shadow-size
                      rgba(0, 0, 0, $box-shadow-opacity);
+
+/* CODE FONTS */
 
 $code-font-family: Menlo, Monaco, "Courier New", monospace !default;
 $code-color: #bf616a !default;
