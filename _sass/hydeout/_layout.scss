@@ -40,6 +40,11 @@ body {
     font-weight: normal;
     font-size: $large-font-size;
     color: rgb(0,0,0);
+
+    /* TRYING TO GET SITE TITLE TO BE UP TOP */
+
+    vertical-align: top;
+    
     margin-top: 0;
     /* margin-bottom: $heading-spacing; */
 
@@ -254,6 +259,9 @@ body {
     justify-content: flex-start;
   }
 }
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.5); }
 
 #sidebar nav > * {
   display: block;
