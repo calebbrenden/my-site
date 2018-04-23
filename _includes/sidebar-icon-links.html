@@ -1,5 +1,4 @@
 <nav id="sidebar-icon-links">
-
   {% if site.github.repo %}
     <a id="github-link"
        class="icon" title="Github Project" aria-label="Github Project"
@@ -32,7 +31,6 @@
     {% endif %}
   {% endfor %}
 
-
   {% if tags_page %}
     <a id="tags-link"
        class="icon{% if page.url == '/tags' %} active{% endif %}"
@@ -41,7 +39,6 @@
       {% include svg/tags.svg %}
     </a>
   {% endif %}
-
 
   {% if search_page %}
     <a id="search-link"
