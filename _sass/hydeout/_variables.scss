@@ -16,7 +16,10 @@ $brown: #8f5536 !default;
 /* FONTS AND FONT SIZES */
 
 $root-font-family: 'Cormorant', serif !default;
-$root-font-size: 1rem !default;
+
+/* ORIGINAL ROOT FONT SIZE WAS 1 REM */
+
+$root-font-size: 0.75rem !default;
 $root-line-height: 1.5 !default;
 
 /* COLORS ON WEB PAGE */
@@ -39,7 +42,10 @@ $section-spacing: 2rem !default;
 $sidebar-width: 16rem !default;
 
 $large-breakpoint: 49rem !default;
-$large-font-size: 1.25rem !default;
+
+/* ORIGINAL LARGE FONT SIZE WAS 1.25REM */
+
+$large-font-size: 1rem !default;
 
 $box-shadow-size: 1px !default;
 $box-shadow-opacity: 0.16 !default;
