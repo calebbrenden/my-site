@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Contact
+layout: page
+title: CONTACT
 sidebar_link: true
 ---
 

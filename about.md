@@ -1,6 +1,6 @@
 ---
-layout: index
-title: About
+layout: page
+title: ABOUT
 sidebar_link: true
 ---
 
