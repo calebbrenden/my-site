@@ -90,15 +90,14 @@ body {
        min-width:200px;
    }
    .splash {
-       background-image: url(1.jpg);
-       width:100%;
-       background-size:cover;
-       background-position:50% 50%;
-       background-repeat: no-repeat;
-       transition: all 0.6s ease;
-       flex:none;
-       -webkit-flex:none;
-   }
+    background-image: url({{ site.baseurl }}/images/samples/sample-1.png);
+    width:100%;
+    background-size:cover;
+    background-position:50% 50%;
+    background-repeat: no-repeat;
+    transition: all 0.6s ease;
+    flex:none;
+}
    .flex1:hover {
        flex:4;
        -webkit-flex:4;
