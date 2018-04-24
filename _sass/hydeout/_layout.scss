@@ -60,21 +60,29 @@ body {
 
 
 /* HORIZONTAL FLEXBOX FOR PHOTOS */
+
+
+
+/* REMOVED FLEX CONTAINER TO SEE IF JUST BOX WILL WORK 
+
    .flex-container {
-       /* REMOVED BECAUSE THIS IS ALREADY A BODY ATTRIBUTE  
+
 
        display: -webkit-box;
        display: -moz-box;
        display: -ms-flexbox;
-       display: -webkit-flex; */
+       display: -webkit-flex; 
 
        display: flex; 
        flex-flow:row;
        height:100%;
        position:absolute;
        width:100%;
-       /*flex-wrap:wrap;*/
+       /*flex-wrap:wrap;
    }
+                      */
+
+
    .box {
        flex:1;
        -webkit-flex:1;
@@ -85,17 +93,6 @@ body {
        height: 100%;
    }
 
-/* REMOVED SPLASH TO SEE IF JUST BOX WILL WORK 
-
-   .splash {
-    width:100%;
-    background-size:cover;
-    background-position:50% 50%;
-    background-repeat: no-repeat;
-    transition: all 0.6s ease;
-    flex:none;
-}
-*/
 
    .flex1:hover {
        flex:4;
