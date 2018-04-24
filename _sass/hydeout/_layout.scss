@@ -63,24 +63,19 @@ body {
 
 
 
-/* REMOVED FLEX CONTAINER TO SEE IF JUST BOX WILL WORK 
+
 
    .flex-container {
-
-
        display: -webkit-box;
        display: -moz-box;
        display: -ms-flexbox;
        display: -webkit-flex; 
-
        display: flex; 
-       flex-flow:row;
+       flex-flow: row;
        height:100%;
        position:absolute;
-       width:100%;
-       /*flex-wrap:wrap;
+       /* REMOVED FOR TEST width:100%; */
    }
-                      */
 
 
    .box {
