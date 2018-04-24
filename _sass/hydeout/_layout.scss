@@ -57,6 +57,55 @@ body {
   }
 }
 
+
+
+/* TRYING TO GET A HORIZONTAL FLEXBOX FOR PHOTOS */
+
+   body {
+       margin: 0;
+       padding: 0;
+       background-color: rgb(242, 242, 242);
+   }
+   .flex-container {
+       display: -webkit-box;
+       display: -moz-box;
+       display: -ms-flexbox;
+       display: -webkit-flex;
+       display: flex;
+       flex-flow:row;
+       height:100%;
+       position:absolute;
+       width:100%;
+       /*flex-wrap:wrap;*/
+   }
+   .box {
+       padding: 20px;
+       color:white;
+       font-size:22px;
+       /* background-color: crimson; */
+       border:1px solid white;
+       flex:1;
+       -webkit-flex:1;
+       text-align:center;
+       min-width:200px;
+   }
+   .splash {
+       background-image: url(1.jpg);
+       width:100%;
+       background-size:cover;
+       background-position:50% 50%;
+       background-repeat: no-repeat;
+       transition: all 0.6s ease;
+       flex:none;
+       -webkit-flex:none;
+   }
+   .flex1:hover {
+       flex:4;
+       -webkit-flex:4;
+   }
+
+
+
 // Container is flexbox as well -- we want content div to stretch and fill
 .container {
   flex: 1 1 auto;
