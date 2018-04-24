@@ -256,7 +256,8 @@ body {
   margin-top: 1rem;
 
   @media (min-width: $large-breakpoint) {
-    margin-left: -0.25em;
+    /* ORIGINALLY MARGIN LEFT */
+    margin-right: -0.25em;
     justify-content: flex-start;
   }
 }
