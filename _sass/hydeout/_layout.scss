@@ -70,11 +70,11 @@ body {
        display: -moz-box;
        display: -ms-flexbox;
        display: -webkit-flex; 
-       display: flex; */
-       flex-flow: row;
-       height:100%;
+       display: flex; 
+       flex-flow: row; */
+       height:100%; 
        position:absolute;
-       /* REMOVED FOR TEST width:100%; */
+       width:100%;
    }
 
 
