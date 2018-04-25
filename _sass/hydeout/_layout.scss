@@ -58,11 +58,20 @@ body {
 }
 
 
+/* NEW HORIZONTAL FLEXBOX */
 
-/* HORIZONTAL FLEXBOX FOR PHOTOS */
+ .scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar; }
+
+.item {
+  flex: 0 0 auto; }
 
 
-
+/* HORIZONTAL FLEXBOX FOR PHOTOS 
 
 
    .flex-container {
@@ -71,7 +80,7 @@ body {
        display: -ms-flexbox;
        display: -webkit-flex; 
        display: flex; 
-       flex-flow: row; */
+       flex-flow: row;
        height:100%; 
        position:absolute;
        width:100%;
@@ -94,7 +103,7 @@ body {
        -webkit-flex:4;
    }
 
-
+*/
 
 // Container is flexbox as well -- we want content div to stretch and fill
 .container {
