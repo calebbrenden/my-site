@@ -63,13 +63,12 @@ body {
 
 .card {
   display: flex;
-  min-width: 100%;
+  /*min-width: 100%;*/
   min-height: 200px;
   overflow-x: auto;
 }
 
 .card--content {
-  min-width: 300px;
   margin: 5px;
   padding: 3rem;
 }
@@ -262,7 +261,7 @@ body {
     }
 
     > * {
-      max-width: 60rem;
+      max-width: 75rem;
       padding: 0;
     }
   }
