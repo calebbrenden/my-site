@@ -79,6 +79,7 @@ body {
 
 .card--content img {
   min-width: 400px;
+  width: 100%;
   height: 100%;
 }
 
@@ -261,7 +262,7 @@ body {
     }
 
     > * {
-      max-width: 75rem;
+      max-width: 70rem;
       padding: 0;
     }
   }
