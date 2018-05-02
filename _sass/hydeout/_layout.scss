@@ -44,10 +44,10 @@ body {
 
 /* TRYING TO GET SITE TITLE TO BE UP TOP */
 
-    vertical-align: top;
+    vertical-align: baseline;
     
     margin-top: 0;
-    /* margin-bottom: $heading-spacing; */
+    margin-bottom: $heading-spacing;
 
     a {
       color: inherit;
