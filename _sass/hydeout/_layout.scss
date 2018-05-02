@@ -63,15 +63,11 @@ body {
 
 .card {
   display: flex;
-  min-height: 500px;
   overflow-x: auto;
   vertical-align: center;
 }
 
 .card--content {
-  width: auto;
-  height: 100%;
-  max-height: 800px;
   margin: 5px;
   padding: 1rem;
 }
