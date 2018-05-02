@@ -7,9 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
   <title>
+<<<<<<< HEAD
     {% if page.title == "Home" %} &#9786; {{ site.tagline }}{% endif %}
     {% else %}
       {{ site.title }} &#9786; {{ page.title }}
+=======
+    {% if page.title == "Home" %}
+      {{ site.title }}{% if site.tagline %} &#9785; {{ site.tagline }}{% endif %}
+    {% else %}
+      {{ site.title }} &#9785; {{ page.title }}
+>>>>>>> parent of 6fe9c53... replaced face with slashes, removed page titles from pages
     {% endif %}
   </title>
 
