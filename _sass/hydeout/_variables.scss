@@ -18,7 +18,6 @@ $brown: #8f5536 !default;
 $root-font-family: 'Cormorant', serif !default;
 
 /* ORIGINAL ROOT FONT SIZE WAS 1 REM */
-
 $root-font-size: 0.75rem !default;
 $root-line-height: 1.5 !default;
 
@@ -34,8 +33,10 @@ $border-color: $gray-2 !default;
 $border-radius: 300px !default;
 $padding-v: 1em !default;
 $padding-h: 1.5em !default;
-$heading-spacing: 0.5rem !default;
-$section-spacing: 2rem !default;
+
+/* ORIGINAL HEADING SPACING WAS 0.5 REM */
+$heading-spacing: 0 !default;
+$section-spacing: 1rem !default;
 
 /* ORIGINAL SIDEBAR WIDTH WAS 18REM */
 
