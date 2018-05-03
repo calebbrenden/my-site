@@ -216,11 +216,11 @@ body {
 
   #sidebar, .home #sidebar {
     width: $sidebar-width;
-    text-align: right;
+    text-align: left;
     vertical-align: top;
 
     > *:last-child {
-      margin-bottom: 0;
+      margin-top: 0;
     }
   }
 
@@ -247,7 +247,7 @@ body {
   .container {
     background: $body-bg;
     color: $body-color;
-    padding: $section-spacing * 2;
+    padding: $section-spacing * 3;
     height: 100vh;
 
     > header {
@@ -299,7 +299,7 @@ body {
   }
 
   &.active {
-    text-decoration: line-through;
+    text-decoration: none;
   }
 }
 
