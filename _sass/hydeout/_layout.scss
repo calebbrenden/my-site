@@ -163,7 +163,7 @@ body {
   // Slightly more bottom padding to compensate for heading not match 100% of
   // line-height on top
   > *:last-child {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -312,6 +312,8 @@ body {
 
   Set $sidebar-stick variable to affix sidebar contents to the
   bottom of the sidebar in tablets and up.
+
+  IF YOU WANT SIDEBAR CONTENT ON TOP OR BOTTOM (FLEX-START OR FLEX-END)
 ----------------------------------------------------------- */
 
 @if $sidebar-sticky {
