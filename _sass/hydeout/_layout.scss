@@ -217,6 +217,7 @@ body {
   #sidebar, .home #sidebar {
     width: $sidebar-width;
     text-align: right;
+    vertical-align: top;
 
     > *:last-child {
       margin-bottom: 0;
