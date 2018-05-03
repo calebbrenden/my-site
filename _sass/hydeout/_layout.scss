@@ -46,8 +46,8 @@ body {
 
     vertical-align: baseline;
     
-    margin-top: 0;
-    margin-bottom: $heading-spacing;
+    margin-top: $heading-spacing;
+    margin-bottom: 0;
 
     a {
       color: inherit;
@@ -73,50 +73,18 @@ body {
   width: auto;
 }
 
-/* .card::-webkit-scrollbar {
-  display: none;
-} */
-
 .card--content img {
   width: auto;
   height: 100%;
   max-height: 700px;
 }
 
+/* OPTION TO REMOVE SCROLLBAR FROM HORIZONTAL PHOTO SCROLLER
 
-/* HORIZONTAL FLEXBOX FOR PHOTOS 
-
-
-   .flex-container {
-       /*display: -webkit-box;
-       display: -moz-box;
-       display: -ms-flexbox;
-       display: -webkit-flex; 
-       display: flex; 
-       flex-flow: row;
-       height:100%; 
-       position:absolute;
-       width:100%;
-   }
-
-
-   .box {
-       flex:1;
-       -webkit-flex:1;
-       text-align:center;
-       min-width:200px;
-       max-height: 1000px;
-       padding: 1rem;
-       height: 100%;
-   }
-
-
-   .flex1:hover {
-       flex:4;
-       -webkit-flex:4;
-   }
-
-*/
+.card::-webkit-scrollbar {
+  display: none;
+} 
+  */
 
 // Container is flexbox as well -- we want content div to stretch and fill
 .container {
@@ -217,7 +185,7 @@ body {
   #sidebar, .home #sidebar {
     width: $sidebar-width;
     text-align: left;
-    vertical-align: top;
+    vertical-align: baseline;
 
     > *:last-child {
       margin-top: 0;
@@ -349,7 +317,7 @@ body {
 @if $sidebar-sticky {
   @media (min-width: $large-breakpoint) {
     body {
-      align-items: flex-end;
+      align-items: flex-start;
     }
   }
 }
