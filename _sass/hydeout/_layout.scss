@@ -41,13 +41,10 @@ body {
     /* font-size: $regular-font-size; */
     color: rgb(0,0,0);
 
-
 /* TRYING TO GET SITE TITLE TO BE UP TOP */
-
     vertical-align: baseline;
-    
     margin-top: $heading-spacing;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
 
     a {
       color: inherit;
