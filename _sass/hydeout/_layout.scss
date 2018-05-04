@@ -62,13 +62,13 @@ body {
   display: flex;
   overflow-x: auto;
   vertical-align: center;
+  flex: auto;
 }
 
 .card--content {
   margin: 0px;
   padding: 0.25rem;
   width: auto;
-  flex: auto;
 }
 
 .card--content img {
