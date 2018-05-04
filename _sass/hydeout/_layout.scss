@@ -281,6 +281,7 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   margin-top: 1rem;
+  justify-content: flex-end;
 
   @media (min-width: $large-breakpoint) {
     /* ORIGINALLY MARGIN LEFT */
