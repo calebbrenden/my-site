@@ -59,10 +59,14 @@ body {
 /* NEW HORIZONTAL FLEXBOX */
 
 .card {
+  background: $body-bg;
+  color: $body-color;
+  padding: $section-spacing;
   flex: 1 1 auto;
   display: flex;
   overflow-x: auto;
   vertical-align: center;
+  flex-direction: row;
 }
 
 .card--content {
@@ -282,7 +286,7 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   margin-top: 1rem;
-  justify-content: flex-end;
+  justify-content: flex-center;
 
   @media (min-width: $large-breakpoint) {
     /* ORIGINALLY MARGIN LEFT */
