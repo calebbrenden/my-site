@@ -61,12 +61,12 @@ body {
 .card {
   background: $body-bg;
   color: $body-color;
+  display: flex;
   flex: 1 1 auto;
   /*overflow-x: auto;*/
   vertical-align: center;
   flex-direction: row;
-  justify-content: flex-start;
-  align-content: center
+  align-content: flex-start
 }
 
 .card--content {
@@ -74,7 +74,6 @@ body {
 }
 
 .card--content img {
-  display: flex;
   height: 100%;
   width: auto;
   max-height: 600px;
