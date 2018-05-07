@@ -5,6 +5,7 @@
 
 article + *, .post-body ~ section {
   padding-top: $section-spacing;
+  padding-bottom: $section-spacing;
   border-top: 1px solid $border-color;
   margin-top: $section-spacing;
 
