@@ -39,8 +39,9 @@ a {
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
-    text-decoration: none;
+    text-decoration: line-through;
     font-weight: bold;
+    color: #000;
   }
 
   strong {
