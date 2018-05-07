@@ -64,7 +64,7 @@ body {
   display: flex;
   flex: 1 1 auto;
   flex-direction: row;
-  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .card--content {
@@ -75,7 +75,7 @@ body {
 .card--content img {
   height: 100%;
   width: auto;
-  max-height: 600px;
+  max-height: 700px;
 }
 
 /* OPTION TO REMOVE SCROLLBAR FROM HORIZONTAL PHOTO SCROLLER
