@@ -61,6 +61,7 @@ body {
 .card {
   background: $body-bg;
   color: $body-color;
+  padding: $section-spacing;
   flex: 1 1 auto;
   display: flex;
   overflow-x: auto;
@@ -70,7 +71,6 @@ body {
 
 .card--content {
   margin: 0px;
-  padding: 0.25rem;
 }
 
 .card--content img {
@@ -252,7 +252,7 @@ body {
 /* USE THESE TO CHANGE THE COLOR OF YOUR SOCIAL ICON LINKS */
 
   svg {
-    fill: rgb(0, 0, 0);
+    fill: #7C7C7C;
     justify-content: flex-end;
   }
 
@@ -262,7 +262,9 @@ body {
 
   &:hover, &:focus {
     color: #000;
+    text-decoration: none;
     &.icon {
+      color: #000;
       text-decoration: none;
     }
   }
