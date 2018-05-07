@@ -61,7 +61,6 @@ body {
 .card {
   background: $body-bg;
   color: $body-color;
-  padding: $section-spacing;
   flex: 1 1 auto;
   display: flex;
   overflow-x: auto;
@@ -247,7 +246,7 @@ body {
 /* USE THIS TO CHANGE THE COLOR OF THE LINKS IN YOUR SIDEBAR */
 
 #sidebar a {
-  color: #000;
+  color: #7C7C7C;
   font-family: 'Raleway', sans-serif;
 
 /* USE THESE TO CHANGE THE COLOR OF YOUR SOCIAL ICON LINKS */
@@ -262,7 +261,7 @@ body {
   }
 
   &:hover, &:focus {
-    text-decoration: line-through;
+    color: #000;
     &.icon {
       text-decoration: none;
     }
