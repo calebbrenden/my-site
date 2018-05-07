@@ -246,19 +246,19 @@ body {
 /* USE THIS TO CHANGE THE COLOR OF THE LINKS IN YOUR SIDEBAR */
 
 #sidebar a {
-  color: #7C7C7C;
+  color: #C6C6C6;
   font-family: 'Raleway', sans-serif;
 
 /* USE THESE TO CHANGE THE COLOR OF YOUR SOCIAL ICON LINKS */
 
   svg {
-    fill: #7C7C7C;
+    fill: #000;
     justify-content: flex-end;
   }
 
-  /* &:hover, &:focus, &.active {
+  /*&:hover, &:focus, &.active {
     svg { fill: #000; }
-  } */
+  }*/
 
   &:hover, &:focus {
     color: #000;
@@ -297,7 +297,7 @@ body {
 }
 
 .grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.5); fill: #000; }
+.grow:hover { transform: scale(1.5); }
 
 #sidebar nav > * {
   display: block;
