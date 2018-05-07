@@ -64,11 +64,10 @@ body {
   display: flex;
   flex: 1 1 auto;
   flex-direction: row;
-  justify-content: flex-start;
+  align-content: flex-start;
 }
 
 .card--content {
-  display: flex;
   margin: 0px;
 }
 
