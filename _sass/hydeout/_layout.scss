@@ -290,10 +290,11 @@ body {
   margin-top: 1rem;
   justify-content: flex-center;
 
+      /* ORIGINALLY MARGIN-LEFT */
   @media (min-width: $large-breakpoint) {
-    /* ORIGINALLY MARGIN LEFT */
-    margin-right: -0.25em;
-    justify-content: flex-end;
+    margin-left: -0.25em;
+    justify-content: flex-start;
+    vertical-align: bottom;
   }
 }
 
