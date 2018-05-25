@@ -7,9 +7,9 @@ sidebar_link: true
 
 Hey there! My name's Caleb.
 
-![picture of me]({{ site.baseurl }}/images/me.jpg "that's me, how cute.")
+<img style="float: right;" src="{{ site.baseurl }}/images/me.jpg" alt="that's me, how cute.">
 
-^ That's me! I'm a student at the University of New Mexico. I like to make things, mostly photos, but other things as well. Burque born and bred, probably currently working on some projects.
+I'm a student at the University of New Mexico. I like to make things, mostly photos, but other things as well. Burque born and bred, probably currently working on some projects.
 
 Do you listen to music on [Spotify?](https://open.spotify.com/user/caleb.brenden?si=4UM3U3EeQgy1LxdPmDLjfA) Follow me over there so we can share our music with each other.
 
