@@ -60,15 +60,13 @@ body {
 
 .card {
   background: $body-bg;
-  color: $body-color;
   padding: $section-spacing;
   flex: 1 1 auto;
   display: flex;
   overflow-x: auto;
-  /*overflow-x: auto;*/
   vertical-align: center;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
  }
 
 .card--content {
@@ -78,7 +76,7 @@ body {
 .card--content img {
   height: 100%;
   width: auto;
-  max-height: 700px;
+  max-height: 1000px;
 }
 
 /* OPTION TO REMOVE SCROLLBAR FROM HORIZONTAL PHOTO SCROLLER
