@@ -61,12 +61,11 @@ body {
 .card {
   background: $body-bg;
   padding: $section-spacing;
-  flex: 0 0 auto;
+  flex: 1 1 auto;
   display: flex;
   overflow-x: auto;
-  vertical-align: center;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: initial;
   width: 100%;
   min-width: 200px;
  }
