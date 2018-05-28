@@ -58,24 +58,23 @@ body {
 
 /* NEW HORIZONTAL FLEXBOX */
 
-.card {
-  background: $body-bg;
+.gallery {
   padding: $section-spacing;
   flex: 1 1 auto;
   display: flex;
   overflow-x: auto;
   flex-direction: row;
-  justify-content: initial;
+  align-items: flex-start;
   width: 100%;
   min-width: 200px;
  }
 
-.card--content {
+.gallery-content {
   margin: 0.25rem;
-  min-height: 500px;
+  min-height: 200px;
 }
 
-.card--content img {
+.gallery-content img {
   height: 100%;
   width: auto;
   max-height: 1000px;
