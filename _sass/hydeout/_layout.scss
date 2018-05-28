@@ -60,8 +60,8 @@ body {
 
 .gallery {
   padding: $section-spacing;
-  /* flex-direction: row; */
-  /* align-items: flex-start; */
+  flex-direction: row;
+  align-items: flex-start;
   display: flex;
   overflow-x: auto;
   flex-wrap: nowrap;
