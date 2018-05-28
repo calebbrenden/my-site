@@ -65,12 +65,13 @@ body {
   display: flex;
   overflow-x: auto;
   flex-wrap: nowrap;
+  -webkit-overflow-scrolling: touch;
+  flex: 1 1 auto;
 }
 
 .gallery-content {
   margin: 0.25rem;
   min-height: 200px;
-  flex: 1 1 auto;
 }
 
 .gallery-content img {
