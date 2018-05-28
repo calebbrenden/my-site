@@ -58,22 +58,18 @@ body {
 
 /* NEW HORIZONTAL FLEXBOX */
 
-.scrolling-wrapper {
+.gallery {
+  padding: $section-spacing;
+  /* flex-direction: row; */
+  /* align-items: flex-start; */
   display: flex;
   overflow-x: auto;
   flex-wrap: nowrap;
 
-  .gallery {
-    padding: $section-spacing;
-    flex: 1 1 auto;
-    /* flex-direction: row; */
-    /* align-items: flex-start; */
-   }
-}
-
 .gallery-content {
   margin: 0.25rem;
   min-height: 200px;
+  flex: 1 1 auto;
 }
 
 .gallery-content img {
