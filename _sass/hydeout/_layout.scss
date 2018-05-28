@@ -62,11 +62,10 @@ body {
   padding: $section-spacing;
   flex: 1 1 auto;
   display: flex;
-  overflow-x: scroll;
+  overflow-x: auto;
   flex-direction: row;
   align-items: flex-start;
-  width: 100%;
-  min-width: 200px;
+  flex-wrap: nowrap;
  }
 
 .gallery-content {
