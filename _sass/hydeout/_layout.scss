@@ -62,7 +62,7 @@ body {
   padding: $section-spacing;
   flex: 1 1 auto;
   display: flex;
-  overflow-x: auto;
+  overflow-x: scroll;
   flex-direction: row;
   align-items: flex-start;
   width: 100%;
