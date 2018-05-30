@@ -60,18 +60,16 @@ body {
 
 .gallery {
   padding: $section-spacing;
-  flex-direction: row;
-  align-items: flex-start;
+  flex: 1 1 auto;
   display: flex;
   overflow-x: auto;
-  flex-wrap: nowrap;
-  -webkit-overflow-scrolling: touch;
-  flex: 1 1 auto;
+  flex-direction: row;
+  justify-content: center;
+
 }
 
 .gallery-content {
   margin: 0.25rem;
-  min-height: 200px;
 }
 
 .gallery-content img {
