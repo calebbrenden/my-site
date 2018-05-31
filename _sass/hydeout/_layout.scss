@@ -251,7 +251,6 @@ body {
   svg {
     fill: #000;
     justify-content: flex-end;
-    align-items: flex-end;
   }
 
   /*&:hover, &:focus, &.active {
@@ -284,13 +283,14 @@ body {
   max-width: 100%;
   flex-flow: row wrap;
   justify-content: center;
-  margin-top: auto;
+  margin-top: 1rem;
 
       /* full screen mode */
   @media (min-width: $large-breakpoint) {
     margin-left: -0.25em;
     justify-content: flex-end;
     margin-top: auto;
+    align-items: flex-end;
   }
 }
 
