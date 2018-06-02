@@ -55,6 +55,7 @@ img {
   width: 100%;
   height: auto; // Fix to keep max-width from squishing images with defined
                 // height in HTML
+  margin: 0rem 0rem 1rem;
 
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
