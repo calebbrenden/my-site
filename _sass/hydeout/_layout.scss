@@ -89,6 +89,7 @@ body {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   > .content {
     flex-grow: 1;
@@ -99,7 +100,8 @@ body {
   background: $body-bg;
   color: $body-color;
   padding: $section-spacing;
-  justify-content: center;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 
