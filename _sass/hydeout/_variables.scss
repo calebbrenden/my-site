@@ -12,7 +12,6 @@ $green: #90a959 !default;
 $cyan: #75b5aa !default;
 $blue: #268bd2 !default;
 $brown: #8f5536 !default;
-&black: #000000 !default;
 
 /* FONTS AND FONT SIZES */
 
@@ -30,7 +29,7 @@ $body-bg: #fff !default;
 /* link-color ORIGINALLY $red */
 $link-color: $red !default;
 /* heading-color ORIGINALLY $gray-6 */
-$heading-color: $black !default;
+$heading-color: #000 !default;
 
 $border-color: $gray-3 !default;
 $border-radius: 300px !default;

@@ -34,6 +34,7 @@ body {
 #sidebar {
   flex: 0 0 auto;
   padding: $section-spacing;
+  margin-left: 1.25rem;
 
   .site-title {
     font-family: 'Raleway', sans-serif;
@@ -64,6 +65,7 @@ body {
   display: flex;
   overflow-x: auto;
   flex-direction: row;
+  margin-right: 1.25rem;
 
 }
 
