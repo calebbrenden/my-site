@@ -117,9 +117,11 @@ body {
 .container > header {
   background: transparent;
   color: white;
-  margin: ($heading-spacing - $section-spacing)
+  margin: 0px
           $section-spacing
           $section-spacing;
+
+  /* removed: ($heading-spacing - $section-spacing) as top margin in container; */
 
   h1, h2 {
     color: white;
