@@ -257,6 +257,7 @@ body {
   svg {
     fill: #000;
     justify-content: flex-end;
+    align-items: flex-end;
   }
 
   /*&:hover, &:focus, &.active {
@@ -309,9 +310,10 @@ body {
 }
 
 #sidebar nav > .icon {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   display: inline-block;
   margin: 0 0.25em;
+  align-items: flex-end;
 }
 
 
