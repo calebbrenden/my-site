@@ -16,16 +16,17 @@
     padding: $padding-v $padding-h;
     border: solid $border-color;
     /* border-radius: $border-radius; */
-    border-width: 3px 3px 5px 3px;
+    border-width: 3px 3px 6px 3px;
     width: 60%;
     max-width: $sidebar-width;
     background: $body-bg;
     box-shadow: $default-box-shadow;
-    margin: 1rem;
+    margin: 0rem 0rem 0rem 2rem;
 
     &:hover {
       background-color: $border-color;
       color: #fff;
+      border: solid #fff;
     }
   }
 }
