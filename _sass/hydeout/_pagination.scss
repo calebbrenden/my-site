@@ -20,13 +20,11 @@
     width: 60%;
     max-width: $sidebar-width;
     background: $body-bg;
-    box-shadow: $default-box-shadow;
     margin: 0rem 0rem 0rem 2rem;
 
     &:hover {
       background-color: $border-color;
       color: #fff;
-      border: solid #fff;
     }
   }
 }
