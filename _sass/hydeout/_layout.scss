@@ -47,6 +47,7 @@ body {
     a {
       color: inherit;
       &:hover { color: $sidebar-title-color; }
+      &:active { color: $sidebar-title-color; }
     }
 
     .back-arrow { margin-right: 0.5rem; }
