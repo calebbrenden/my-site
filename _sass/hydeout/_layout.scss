@@ -34,7 +34,6 @@ body {
 #sidebar {
   flex: 0 0 auto;
   padding: $section-spacing;
-  margin-left: 1.25rem;
 
   .site-title {
     font-family: 'Raleway', sans-serif;
@@ -63,7 +62,6 @@ body {
   display: flex;
   overflow-x: auto;
   flex-direction: row;
-  margin-right: 1.25rem;
 
 }
 
@@ -184,10 +182,19 @@ body {
 
   /* Undo mobile CSS */
 
+  .gallery {
+    margin-right: 0.75rem;
+  }
+
+  #sidebar {
+    margin-left: 1.25rem
+  }
+
   #sidebar, .home #sidebar {
     width: $sidebar-width;
     text-align: left;
     vertical-align: baseline;
+    margin-left: 1.25rem
 
     > *:last-child {
       margin-top: 0;
