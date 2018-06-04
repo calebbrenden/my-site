@@ -76,12 +76,6 @@ body {
   margin: 0rem;
 }
 
-/* OPTION TO REMOVE SCROLLBAR FROM HORIZONTAL PHOTO SCROLLER
-.card::-webkit-scrollbar {
-  display: none;
-} 
-  */
-
 // Container is flexbox as well -- we want content div to stretch and fill
 .container {
   flex: 1 1 auto;
