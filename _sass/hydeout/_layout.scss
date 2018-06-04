@@ -55,7 +55,7 @@ body {
 }
 
 
-/* NEW HORIZONTAL FLEXBOX */
+/* HORIZONTAL SCROLLING FLEXBOX GALLERY */
 
 .gallery {
   padding: $section-spacing;
@@ -226,6 +226,8 @@ body {
     color: $body-color;
     padding: $section-spacing * 3;
     height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
 
     > header {
       color: inherit;
