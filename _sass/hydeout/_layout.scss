@@ -77,6 +77,13 @@ body {
   margin: 0rem;
 }
 
+.gallery-video {
+  height: 100%;
+  width: auto;
+  max-height: 1000px;
+  margin: 0rem;
+}
+
 // Container is flexbox as well -- we want content div to stretch and fill
 .container {
   flex: 1 1 auto;
