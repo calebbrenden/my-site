@@ -187,14 +187,14 @@ body {
   }
 
   #sidebar {
-    margin-left: 1.25rem
+    margin-left: 1.25rem;
   }
 
   #sidebar, .home #sidebar {
     width: $sidebar-width;
     text-align: left;
     vertical-align: baseline;
-    margin-left: 1.25rem
+    margin-left: 1.25rem;
 
     > *:last-child {
       margin-top: 0;
