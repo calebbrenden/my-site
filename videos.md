@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: VIDEOS
 sidebar_link: true
 ---
