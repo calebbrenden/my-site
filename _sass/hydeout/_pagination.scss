@@ -29,6 +29,10 @@
   }
 }
 
+.button-name {
+  margin-top: 0;
+}
+
 // Bottom -> margin-top;
 * + .pagination {
   margin-top: $section-spacing;
