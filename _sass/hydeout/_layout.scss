@@ -182,9 +182,9 @@ body {
 
   /* Undo mobile CSS */
 
-  .gallery {
+  /* .gallery {
     margin-right: 0.75rem;
-  }
+  } */
 
   #sidebar {
     margin-left: 1.25rem;
@@ -194,7 +194,7 @@ body {
     width: $sidebar-width;
     text-align: left;
     vertical-align: baseline;
-    margin-left: 1.25rem;
+    /* margin-left: 1.25rem; */
 
     > *:last-child {
       margin-top: 0;
@@ -220,14 +220,17 @@ body {
 
   .index #sidebar { margin-bottom: 0; }
 
+  .content {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   // Make entire container background white to contrast against sidebar
   .container {
     background: $body-bg;
     color: $body-color;
     padding: $section-spacing * 3;
     height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
 
     > header {
       color: inherit;
