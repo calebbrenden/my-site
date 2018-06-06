@@ -38,7 +38,7 @@ body {
   .site-title {
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
-    /* font-size: $regular-font-size; */
+    font-size: $large-font-size;
     color: rgb(0,0,0);
     vertical-align: baseline;
     margin-top: $heading-spacing;
@@ -58,7 +58,8 @@ body {
 /* HORIZONTAL SCROLLING FLEXBOX GALLERY */
 
 .gallery {
-  padding: $section-spacing;
+  padding-top: $section-spacing;
+  padding-bottom: $section-spacing;
   flex: 1 1 auto;
   display: flex;
   overflow-x: auto;
@@ -98,7 +99,7 @@ body {
 .content {
   background: $body-bg;
   color: $body-color;
-  padding: 3rem;
+  padding: $section-spacing;
 }
 
 
@@ -203,7 +204,7 @@ body {
 
   #sidebar {
     .site-title {
-      font-size: 2.75rem;
+      /* font-size: 2.75rem; */
 
       a { color: $sidebar-title-color; }
       .back-arrow { display: none; }
@@ -229,7 +230,7 @@ body {
   .container {
     background: $body-bg;
     color: $body-color;
-    padding: $section-spacing * 3;
+    padding: $section-spacing;
     height: 100vh;
 
     > header {
