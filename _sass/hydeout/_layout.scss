@@ -84,6 +84,12 @@ body {
   margin: 0rem;
 }
 
+
+video {
+  width: 100%
+  height: auto;
+}
+
 // Container is flexbox as well -- we want content div to stretch and fill
 .container {
   flex: 1 1 auto;
