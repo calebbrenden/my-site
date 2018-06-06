@@ -66,7 +66,7 @@ body {
 }
 
 .gallery-content {
-  margin: 0.25rem;
+  margin: 0.5rem;
 }
 
 .gallery-content img {
@@ -227,8 +227,11 @@ body {
   .container {
     background: $body-bg;
     color: $body-color;
-    padding: $section-spacing;
     height: 100vh;
+    padding-left: $section-spacing;
+    padding-right: $section-spacing;
+    padding-bottom: $section-spacing;
+    padding-top: $section-spacing * 1.5;
 
     > header {
       color: inherit;
