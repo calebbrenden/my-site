@@ -4,12 +4,18 @@ title: VIDEOS
 sidebar_link: true
 ---
 
+<div class="embed-container">
+  <iframe
+      src="https://player.vimeo.com/video/193272107"
+      width="500"
+      height="281"
+      frameborder="0"
+      webkitallowfullscreen
+      mozallowfullscreen
+      allowfullscreen>
+  </iframe>
+</div>
 
-<div class="video"><iframe src="https://player.vimeo.com/video/193272107?title=0&byline=0&portrait=0" style="width:100%;height:auto;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-<div class="video"><iframe src="https://player.vimeo.com/video/193272107?title=0&byline=0&portrait=0" style="width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-<div><iframe src="https://player.vimeo.com/video/193272107?title=0&byline=0&portrait=0" style="width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 
 <!--
