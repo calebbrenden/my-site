@@ -1,27 +1,10 @@
 ---
-layout: page
+layout: videos
 title: VIDEOS
 sidebar_link: true
 ---
 
-
-<!--
-<div class="embed-container">
-  <iframe
-      src="https://player.vimeo.com/video/193272107"
-      width="500"
-      height="281"
-      frameborder="0"
-      webkitallowfullscreen
-      mozallowfullscreen
-      allowfullscreen>
-  </iframe>
-</div>
--->
-
 {% include video.html url="https://player.vimeo.com/video/193272107" width="560" height="315" %}
-
-
 
 <!--
 <section class="gallery">
