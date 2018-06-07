@@ -4,6 +4,8 @@ title: VIDEOS
 sidebar_link: true
 ---
 
+
+<!--
 <div class="embed-container">
   <iframe
       src="https://player.vimeo.com/video/193272107"
@@ -15,6 +17,9 @@ sidebar_link: true
       allowfullscreen>
   </iframe>
 </div>
+-->
+
+{% include helpers/video.html url="https://www.youtube.com/embed/fy7q0klb0yI" width="560" height="315" %}
 
 
 
