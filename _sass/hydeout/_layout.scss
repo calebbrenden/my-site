@@ -74,7 +74,7 @@ body {
 .gallery-content img {
   height: 100%;
   width: auto;
-  max-height: 1000px;
+  max-height: 800px;
   margin: 0rem;
 }
 
@@ -160,6 +160,10 @@ body {
   }
 }
 
+.gallery {
+  padding: 0.5rem;
+}
+
 
 /* -----------------------------------------------------------
   Mobile view for home page)
@@ -209,9 +213,10 @@ body {
 
   /* Undo mobile CSS */
 
-  /* .gallery {
-    margin-right: 0.75rem;
-  } */
+  .gallery {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
 
   #sidebar {
     margin-left: 1.25rem;
