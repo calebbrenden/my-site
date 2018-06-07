@@ -19,7 +19,7 @@ sidebar_link: true
 </div>
 -->
 
-{% include helpers/video.html url="https://www.youtube.com/embed/fy7q0klb0yI" width="560" height="315" %}
+{% include video.html url="https://www.youtube.com/embed/fy7q0klb0yI" width="560" height="315" %}
 
 
 
