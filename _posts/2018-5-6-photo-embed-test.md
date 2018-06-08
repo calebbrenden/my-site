@@ -16,3 +16,4 @@ Check out the photos and blahasdkfjaslkjdbflkajsbdfkjbaskldjbfkajsbd  asdkjfhalk
   <div class="blog-gallery-content"><img src="{{ site.baseurl }}/images/samples/sample-5.jpg" alt="sample 5"></div>
   <div class="blog-gallery-content"><img src="{{ site.baseurl }}/images/samples/sample-6.jpg" alt="sample 6"></div>
 </div>
+more text asdkfjbalksjdbflkjasdlfkjasedf
