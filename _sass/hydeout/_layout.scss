@@ -79,7 +79,7 @@ body {
   margin: 0rem;
 }
 
-/* seperate gallery for blog posts 
+/* seperate gallery for blog posts */
 
 .blog-gallery {
   flex: 1 1 auto;
@@ -90,17 +90,12 @@ body {
   padding-bottom: 1.25rem;
 }
 
-.blog-gallery-content {
-  padding-right: 0.3rem;
-  padding-left: 0.3rem
-}
-
 .blog-gallery-content img {
   height: 100%;
   width: auto;
-  max-height: 500px;
+  max-height: 600px;
   margin: 0rem;
-}  */
+}
 
 /* -----------------------------------------------------------
   VIDEO CSS
@@ -372,7 +367,7 @@ body {
       /* full screen mode */
   @media (min-width: $large-breakpoint) {
     margin-left: -0.25em;
-    justify-content: flex-end;
+    justify-content: flex-start;
     margin-top: auto;
     align-items: flex-end;
   }
