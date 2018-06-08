@@ -75,9 +75,32 @@ body {
 .gallery-content img {
   height: 100%;
   width: auto;
-  max-height: 800px;
+  max-height: 1000px;
   margin: 0rem;
 }
+
+/* seperate gallery for blog posts 
+
+.blog-gallery {
+  flex: 1 1 auto;
+  display: flex;
+  overflow-x: auto;
+  flex-direction: row;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.blog-gallery-content {
+  padding-right: 0.3rem;
+  padding-left: 0.3rem
+}
+
+.blog-gallery-content img {
+  height: 100%;
+  width: auto;
+  max-height: 500px;
+  margin: 0rem;
+}  */
 
 /* -----------------------------------------------------------
   VIDEO CSS
@@ -165,6 +188,9 @@ body {
   padding: 0.5rem;
 }
 
+.gallery-content img {
+  max-height: 500px;
+}
 
 /* -----------------------------------------------------------
   Mobile view for home page)
@@ -199,10 +225,6 @@ body {
   }
 }
 
-.gallery-content img {
-  max-height: 500px;
-}
-
 /* -----------------------------------------------------------
   Tablet / Desktop view
 ----------------------------------------------------------- */
@@ -219,6 +241,10 @@ body {
 
   .gallery {
     padding-left: 1rem;
+  }
+
+  .gallery-content img {
+    max-height: 1000px;
   }
 
   #sidebar {
