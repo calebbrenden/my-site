@@ -148,6 +148,14 @@ body {
   }
 }
 
+.media-wrap {
+  @extend html;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* -----------------------------------------------------------
       CONTAINER
 ----------------------------------------------------------- */
