@@ -4,6 +4,7 @@ title: ABOUT
 sidebar_link: true
 ---
 
+<h1>ABOUT</h1>
 
 Hey there! My name's Caleb.
 
