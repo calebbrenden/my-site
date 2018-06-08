@@ -25,14 +25,21 @@
 body {
   color: rgb(0,0,0);
   background-color: $sidebar-bg-color;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
 }
 
 #sidebar {
-  flex: 0 0 auto;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
   padding: $section-spacing;
 
   .site-title {
@@ -59,10 +66,17 @@ body {
 /* HORIZONTAL SCROLLING FLEXBOX GALLERY */
 
 .gallery {
-  flex: 1 1 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   overflow-x: auto;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
@@ -82,12 +96,24 @@ body {
 /* seperate gallery for blog posts */
 
 .blog-gallery {
-  flex: 1 1 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   overflow-x: auto;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.blog-gallery-content {
+  padding-right: 0.3rem;
+  padding-left: 0.3rem
 }
 
 .blog-gallery-content img {
@@ -118,10 +144,17 @@ body {
 }
 
 .video-gallery {
-  flex: 1 1 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   overflow-x: auto;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
@@ -132,12 +165,21 @@ body {
 
 // Container is flexbox as well -- we want content div to stretch and fill
 .container {
-  flex: 1 1 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 
   > .content {
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
   }
 }
 
@@ -209,6 +251,8 @@ body {
 
   header {
     ~ nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
     }
   }
@@ -226,7 +270,10 @@ body {
 
 @media (min-width: $large-breakpoint) {
   body {
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     height: 100vh;
     overflow: auto;
     > * { max-height: 100vh; overflow: auto; }
@@ -269,6 +316,8 @@ body {
     }
 
     header ~ nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
     }
   }
@@ -327,8 +376,12 @@ body {
 
   svg {
     fill: #000;
-    justify-content: flex-end;
-    align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
 
   /*&:hover, &:focus, &.active {
@@ -351,30 +404,44 @@ body {
 }
 
 #sidebar nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 #sidebar-nav-links {
-  flex-flow: column nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
 
 #sidebar-icon-links {
   max-width: 100%;
-  flex-flow: row wrap;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 1rem;
 
       /* full screen mode */
   @media (min-width: $large-breakpoint) {
     margin-left: -0.25em;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     margin-top: auto;
-    align-items: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
 }
 
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.5); }
+.grow { -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
+.grow:hover { -webkit-transform: scale(1.5); -ms-transform: scale(1.5); transform: scale(1.5); }
 
 #sidebar nav > * {
   display: block;
@@ -385,7 +452,9 @@ body {
   font-size: 1.3rem;
   display: inline-block;
   margin: 0 0.25em;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 
@@ -401,7 +470,9 @@ body {
 @if $sidebar-sticky {
   @media (min-width: $large-breakpoint) {
     body {
-      align-items: flex-start;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
     }
   }
 }
@@ -417,7 +488,9 @@ body {
 @if $layout-reverse {
   @media (min-width: $large-breakpoint) {
     .container {
-      order: -1;
+      -webkit-box-ordinal-group: 0;
+          -ms-flex-order: -1;
+              order: -1;
     }
   }
 }

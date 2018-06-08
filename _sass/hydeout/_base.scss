@@ -41,7 +41,6 @@ a {
   &:focus {
     text-decoration: line-through;
     font-weight: bold;
-    color: $gray-3;
   }
 
   strong {
@@ -51,7 +50,6 @@ a {
 
 img {
   display: block;
-  /* max-width: 100%; */
   width: 100%;
   height: auto; 
   margin: 0rem 0rem 1rem;
