@@ -4,8 +4,11 @@ title: VIDEOS
 sidebar_link: true
 ---
 
-{% include video.html url="https://player.vimeo.com/video/193272107" width="1000" height="562" %}
+{% include video.html url="https://player.vimeo.com/video/193272107" width="560" height="315" %}
 
+{% include video.html url="https://player.vimeo.com/video/193272836" width="560" height="315" %}
+
+{% include video.html url="https://player.vimeo.com/video/197143324" width="560" height="315" %}
 <!--
 <section class="gallery">
 	<div class="embed-responsive embed-responsive-16by9 gallery-video">
