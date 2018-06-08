@@ -426,7 +426,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 1rem;
+  padding: 2rem;
 
       /* full screen mode */
   @media (min-width: $large-breakpoint) {

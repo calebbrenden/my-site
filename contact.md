@@ -4,7 +4,7 @@ title: CONTACT
 sidebar_link: true
 ---
 
-<h1>CONTACT</h2>
+<h1 class="page-title">CONTACT</h1>
 
 If you need to get in touch with me, hit me up here: 
 

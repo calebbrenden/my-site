@@ -4,6 +4,8 @@ title: VIDEOS
 sidebar_link: true
 ---
 
+<h1 class="page-title">VIDEOS</h1>
+
 {% include video.html url="https://player.vimeo.com/video/193272107" width="560" height="315" %}
 
 {% include video.html url="https://player.vimeo.com/video/193272836" width="560" height="315" %}
