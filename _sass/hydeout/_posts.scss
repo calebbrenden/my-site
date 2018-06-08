@@ -28,6 +28,10 @@ article + *, .post-body ~ section {
 .post-title a {
   color: $heading-color;
   text-align: center;
+  &:hover {
+    text-decoration: none;
+    text-decoration: line-through;
+  }
 }
 .page-title,
 .post-title {
