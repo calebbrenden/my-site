@@ -24,19 +24,21 @@ article + *, .post-body ~ section {
 
 // Blog post or page title
 .page-title,
-.post-title,
-.post-title a {
+.post-title {
   color: $heading-color;
   text-align: center;
   text-decoration: underline;
 }
 
 .post-title a {
+  color: $heading-color;
+  text-align: center;
+  text-decoration: underline;
   &:hover {
-    text-decoration: none;
     text-decoration: line-through;
   }
 }
+
 .page-title,
 .post-title {
   margin-top: 0;
