@@ -131,6 +131,7 @@ body {
 .media {
   max-width: 800px;
   width: 100%;
+  display: inline-block;
   &__video {
     position: relative;
     padding-bottom: 56.25%;
@@ -149,9 +150,7 @@ body {
 }
 
 .media-wrap {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
+  text-align: center;
 }
 
 
