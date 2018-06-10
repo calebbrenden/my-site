@@ -3,7 +3,7 @@ layout: default
 title: VIDEOS
 sidebar_link: true
 ---
-<div class="content">
+<div class="media-wrap">
 <h1 class="page-title">VIDEOS</h1>
 
 <div class="media">
