@@ -4,8 +4,9 @@
 
 h1, h2, h3, h4, h5, h6, .site-title {
   font-family: 'Raleway', sans-serif;
-  margin-bottom: $heading-spacing;
   font-weight: 600;
+  font-style: italic;
+  margin-bottom: $heading-spacing;
   line-height: 1.25;
   color: $heading-color;
   text-rendering: optimizeLegibility;
