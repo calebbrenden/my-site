@@ -246,8 +246,6 @@ body {
 
   header {
     ~ nav {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
     }
   }
@@ -292,11 +290,9 @@ body {
   #sidebar, .home #sidebar {
     width: $sidebar-width;
     text-align: left;
-    vertical-align: baseline;
-    /* margin-left: 1.25rem; */
 
     > *:last-child {
-      margin-top: auto;
+      margin-bottom: 0;
     }
   }
 
