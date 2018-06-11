@@ -1,5 +1,4 @@
 <nav id="sidebar-icon-links">
-  <!--
   {% if site.github.repo %}
     <a id="github-link"
        class="icon" title="Github Project" aria-label="Github Project"
@@ -18,21 +17,7 @@
      href="{{ site.baseurl }}/{{ site.feed.path | default: 'feed.xml' }}">
     {% include svg/feed.svg %}
   </a>
--->
 
-  <a id="subscribe-link"
-    class="icon" title="Subscribe" aria-label="Subscribe"
-    href="{{ site.baseurl }}/feed.xml">
-    {% include svg/feed.svg %}
-  </a>
-
-  <a class="icon grow" title="twitter" aria-label="twitter"
-    href="https://twitter.com/caleb_brenden">
-    {% include svg/twitter.svg %}
-  </a>
-
-
-<!--
   {% comment %}
     Check if we have tag or search pages page active before linking to it.
   {% endcomment %}
@@ -63,15 +48,6 @@
       {% include svg/search.svg %}
     </a>
   {% endif %}
-
--->
-
-
-
-  <a class="icon grow" title="instagram" aria-label="instagram"
-    href="https://instagram.com/calebbreadsticks">
-    {% include svg/insta.svg %}
-  </a>
 
   {% include custom-icon-links.html %}
 </nav>
