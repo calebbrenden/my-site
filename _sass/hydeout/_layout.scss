@@ -373,13 +373,7 @@ body {
 /* USE THESE TO CHANGE THE COLOR OF YOUR SOCIAL ICON LINKS */
 
   svg {
-    fill: #000;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    fill: rgba(255, 255, 255, 0.85);
   }
 
   /*&:hover, &:focus, &.active {
@@ -387,10 +381,8 @@ body {
   }*/
 
   &:hover, &:focus {
-    color: #000;
     text-decoration: none;
     &.icon {
-      color: #000;
       text-decoration: none;
     }
   }
@@ -402,39 +394,24 @@ body {
 }
 
 #sidebar nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 #sidebar-nav-links {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
+  flex-flow: column nowrap;
 }
 
 #sidebar-icon-links {
   max-width: 100%;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-flow: row wrap;
+  justify-content: center;
   padding: 2rem;
+  margin-top: 1rem;
 
       /* full screen mode */
   @media (min-width: $large-breakpoint) {
     margin-left: -0.25em;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-end;
-    margin-top: auto;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    justify-content: flex-start;
   }
 }
 
@@ -450,9 +427,6 @@ body {
   font-size: 1.3rem;
   display: inline-block;
   margin: 0 0.25em;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
 }
 
 
