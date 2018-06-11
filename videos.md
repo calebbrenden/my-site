@@ -25,7 +25,7 @@ sidebar_link: true
 </div>
 </div>
 
-<!-- test comment -->
+<!-- another test comment -->
 <!--
 <section class="gallery">
 	<div class="embed-responsive embed-responsive-16by9 gallery-video">
