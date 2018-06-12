@@ -1,4 +1,5 @@
 <nav id="sidebar-icon-links">
+  <!--
   {% if site.github.repo %}
     <a id="github-link"
        class="icon" title="Github Project" aria-label="Github Project"
@@ -10,14 +11,15 @@
        href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">
       {% include svg/download.svg %}
     </a>
-  {% endif %}
+  {% endif %} -->
 
   <a id="subscribe-link"
      class="icon" title="Subscribe" aria-label="Subscribe"
      href="{{ site.baseurl }}/{{ site.feed.path | default: 'feed.xml' }}">
     {% include svg/feed.svg %}
   </a>
-
+  
+<!--
   {% comment %}
     Check if we have tag or search pages page active before linking to it.
   {% endcomment %}
@@ -47,7 +49,7 @@
        href="{{ site.baseurl }}{{ search_page.url }}">
       {% include svg/search.svg %}
     </a>
-  {% endif %}
+  {% endif %} -->
 
   {% include custom-icon-links.html %}
 </nav>
