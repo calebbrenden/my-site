@@ -376,8 +376,13 @@ body {
     svg { fill: #000; }
   }*/
 
-  &:hover, &:focus {
+  &:visited {
     text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: #000;
     &.icon {
       text-decoration: none;
     }
