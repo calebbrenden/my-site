@@ -365,6 +365,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-style: italic;
+  text-decoration: none;
 
 /* USE THESE TO CHANGE THE COLOR OF YOUR SOCIAL ICON LINKS */
 
@@ -376,23 +377,40 @@ body {
     svg { fill: #000; }
   }*/
 
-  &:visited {
-    text-decoration: none;
-  }
-
-  &:hover {
-    text-decoration: none;
+  &:hover &:focus {
     color: #000;
     &.icon {
-      text-decoration: none;
+      color: #000;
     }
   }
 
   &.active {
-    text-decoration: none;
     color: #000;
   }
 }
+
+
+
+
+/*  
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  // `:focus` is linked to `:hover` for basic accessibility
+  &:hover,
+  &:focus {
+    text-decoration: line-through;
+    font-weight: bold;
+  }
+
+  strong {
+    color: inherit;
+  }
+}
+
+ */
 
 #sidebar nav {
   display: flex;
