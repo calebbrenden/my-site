@@ -324,8 +324,7 @@ body {
   .index #sidebar { margin-bottom: 0; }
 
   .content {
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
   }
 
   // Make entire container background white to contrast against sidebar
@@ -340,8 +339,7 @@ body {
 
     > header {
       color: inherit;
-      margin-left: auto;
-      margin-right: auto;
+      justify-content: center;
       text-decoration: underline;
       h1, h2 {
         color: inherit;
