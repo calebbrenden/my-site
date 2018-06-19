@@ -175,7 +175,6 @@ body {
           flex-direction: column;
 
   > .content {
-    justify-content: center;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
@@ -186,7 +185,6 @@ body {
   background: $body-bg;
   color: $body-color;
   padding: $section-spacing;
-  justify-content: center;
 }
 
 
@@ -283,6 +281,11 @@ body {
     padding-left: 1rem;
   } */
 
+  /* .content {
+    margin-left: auto;
+    margin-right: auto;
+  } */
+
   .gallery-content img {
     max-height: 1000px;
   }
@@ -334,10 +337,10 @@ body {
     padding-right: $section-spacing;
     padding-bottom: $section-spacing;
     padding-top: $section-spacing * 1.5;
+    justify-content: center;
 
     > header {
       color: inherit;
-      justify-content: center;
       text-decoration: underline;
       h1, h2 {
         color: inherit;
