@@ -282,6 +282,10 @@ body {
     max-height: 1000px;
   }
 
+  .media-wrap {
+    justify-content: center;
+  }
+
   #sidebar {
     margin-left: 1.25rem;
     height: 100%;
@@ -373,9 +377,9 @@ body {
     fill: #000;
   }
 
-  /*&:hover, &:focus, &.active {
+  &:hover, &:focus, &.active {
     svg { fill: #000; }
-  }*/
+  }
 
   &:hover &:focus {
     color: #000;
