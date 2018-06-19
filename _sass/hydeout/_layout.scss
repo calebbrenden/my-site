@@ -62,8 +62,6 @@ body {
   }
 }
 
-/* COMMENT */
-
 /* HORIZONTAL SCROLLING FLEXBOX GALLERY */
 
 .gallery {
@@ -175,7 +173,6 @@ body {
           flex-direction: column;
 
   > .content {
-    justify-content: center;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
@@ -186,7 +183,6 @@ body {
   background: $body-bg;
   color: $body-color;
   padding: $section-spacing;
-  justify-content: center;
 }
 
 
@@ -283,10 +279,10 @@ body {
     padding-left: 1rem;
   } */
 
-  /* .content {
+  .content {
     margin-left: auto;
     margin-right: auto;
-  } */
+  }
 
   .gallery-content img {
     max-height: 1000px;
