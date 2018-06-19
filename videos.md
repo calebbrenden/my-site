@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: videos
 title: VIDEOS
 sidebar_link: true
 ---
-<div class="media-wrap">
 <h1 class="page-title">VIDEOS</h1>
 
 <div class="media">
@@ -23,7 +22,7 @@ sidebar_link: true
     <iframe src="https://player.vimeo.com/video/193272836?wmode=transparent" type="text/html" width="400" height="302" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
-</div>
+
 
 <!-- another test comment -->
 <!--
