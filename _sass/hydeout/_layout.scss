@@ -175,6 +175,7 @@ body {
           flex-direction: column;
 
   > .content {
+    justify-content: center;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
@@ -185,6 +186,7 @@ body {
   background: $body-bg;
   color: $body-color;
   padding: $section-spacing;
+  justify-content: center;
 }
 
 
@@ -322,10 +324,6 @@ body {
   }
 
   .index #sidebar { margin-bottom: 0; }
-
-  .content {
-    justify-content: center;
-  }
 
   // Make entire container background white to contrast against sidebar
   .container {
