@@ -23,11 +23,11 @@ $root-line-height: 1.5 !default;
 
 /* COLORS ON WEB PAGE */
 /* body-color ORIGINALLY $gray-5 */
-$body-color: #000 !default;
+$body-color: $gray-6 !default;
 $body-muted: $gray-4 !default;
 $body-bg: #fff !default;
 /* link-color ORIGINALLY $red */
-$link-color: $gray-6 !default;
+$link-color: #000 !default;
 /* heading-color ORIGINALLY $gray-6 */
 $heading-color: #000 !default;
 
