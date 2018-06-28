@@ -370,8 +370,14 @@ body {
   font-style: italic;
   text-decoration: none;
 
-/* USE THESE TO CHANGE THE COLOR OF YOUR SOCIAL ICON LINKS */
+  &:hover,
+  &:focus,
+  &:active; {
+    color: #fff;
+  }
 
+
+/* USE THESE TO CHANGE THE COLOR OF YOUR SOCIAL ICON LINKS */
   svg {
     fill: #000;
   }
