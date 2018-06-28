@@ -28,6 +28,8 @@ article + *, .post-body ~ section {
   color: $heading-color;
   text-align: center;
   text-decoration: underline;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .post-title a {
