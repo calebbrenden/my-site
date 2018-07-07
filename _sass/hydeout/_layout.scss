@@ -151,8 +151,7 @@ body {
   text-align: center;
   background: $body-bg;
   color: $body-color;
-  padding: $section-spacing;
-  padding-top: $section-spacing + 4.5rem;
+  padding: 4.5rem $section-spacing $section-spacing;
   width: 100%;
 }
 
