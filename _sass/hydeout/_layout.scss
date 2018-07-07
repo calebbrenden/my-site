@@ -202,7 +202,7 @@ body {
 // Make header elements blend into sidebar / background
 .container > header {
   background: transparent;
-  color: white;
+  color: #000;
   margin: 0
           $section-spacing
           $section-spacing;
@@ -339,7 +339,7 @@ body {
 
     > header {
       color: inherit;
-      text-decoration: underline;
+      /* text-decoration: underline; */
       h1, h2 {
         color: inherit;
 
