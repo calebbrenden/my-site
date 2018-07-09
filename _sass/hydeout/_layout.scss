@@ -204,7 +204,7 @@ body {
   background: transparent;
   color: #000;
   margin: 0
-          $section-spacing
+          auto
           $section-spacing;
 
   /* removed: ($heading-spacing - $section-spacing) as top margin in container; */
