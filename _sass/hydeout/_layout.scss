@@ -365,6 +365,12 @@ body {
   CONTACT FORM
 ----------------------------------------------------------- */
 
+#formwrap {
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 #formview {
   display: block;
 }
