@@ -13,8 +13,9 @@ sidebar_link: true
 <p align="center">I'll get back to you as soon as I can!</p>
 
 
-<form method="POST" action="https://formspree.io/calebbrenden@unm.edu">
-  <input type="email" name="email" placeholder="Your email">
-  <textarea name="message" placeholder="Your message"></textarea>
-  <button type="submit">Send</button>
+<form id="contactform" action="//formspree.io/your@email.com" method="POST">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="_replyto" placeholder="Your email">
+    <textarea name="message" placeholder="Your message"></textarea>
+    <input type="submit" value="Send">
 </form>
