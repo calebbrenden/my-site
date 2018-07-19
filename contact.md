@@ -9,7 +9,7 @@ sidebar_link: true
 <p align="center">If you need to get in touch with me, hit me up here:</p> 
 
 <p align="center"><a href="mailto:calebbrenden@unm.edu">calebbrenden@unm.edu</a></p>
-
+<!--
 <p align="center">I'll get back to you as soon as I can!</p>
 <div id="formwrap">
 	<a href="https://placeholder.com"><img src="http://via.placeholder.com/350x800"></a>
@@ -21,4 +21,4 @@ sidebar_link: true
   			<button type="submit">Submit</button>
 		</form>
 	</div>
-</div>
+</div> -->
