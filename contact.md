@@ -12,7 +12,7 @@ sidebar_link: true
 
 <p align="center">I'll get back to you as soon as I can!</p>
 <div id="formwrap">
-	<a href="https://placeholder.com"><img src="http://via.placeholder.com/350x1000"></a>
+	<a href="https://placeholder.com"><img src="http://via.placeholder.com/350x800"></a>
 	<div id="formview">
 		<form accept-charset="UTF-8" action="https://formkeep.com/f/XXXXXXXXXXXX" method="POST">
   			<input type="email" name="email" placeholder="Your Email">

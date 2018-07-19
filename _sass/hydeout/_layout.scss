@@ -369,10 +369,12 @@ body {
   display:flex;
   justify-content: space-evenly;
   align-items: center;
+  float: left;
 }
 
 #formview {
   display: block;
+  float: right;
 }
 
 
