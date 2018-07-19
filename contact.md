@@ -12,10 +12,11 @@ sidebar_link: true
 
 <p align="center">I'll get back to you as soon as I can!</p>
 
-
-<form accept-charset="UTF-8" action="https://formkeep.com/f/XXXXXXXXXXXX" method="POST">
-  <input type="email" name="email" placeholder="Your Email">
-  <input type="text" name="name" placeholder="Your Name">
-  <input type="hidden" name="utf8" value="✓">
-  <button type="submit">Submit</button>
-</form>
+<div id="formview">
+	<form accept-charset="UTF-8" action="https://formkeep.com/f/XXXXXXXXXXXX" method="POST">
+  		<input type="email" name="email" placeholder="Your Email">
+  		<input type="text" name="name" placeholder="Your Name">
+  		<input type="hidden" name="utf8" value="✓">
+  		<button type="submit">Submit</button>
+	</form>
+</div>
