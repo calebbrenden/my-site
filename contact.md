@@ -8,11 +8,13 @@ sidebar_link: true
 
 <img style="float: left;" src="{{ site.baseurl }}/images/me-krakow.jpg" alt="that's me in krakow, poland!">
 
+<div style="float: right;">
 <p align="center">If you need to get in touch with me, hit me up here:</p> 
 
 <p align="center"><a href="mailto:calebbrenden@unm.edu">calebbrenden@unm.edu</a></p>
 
 <p align="center">I'll get back to you as soon as I can!</p>
+</div>
 
 <!--
 <p align="center">I'll get back to you as soon as I can!</p>
