@@ -143,6 +143,7 @@ body {
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
+  padding: 1em;
 }
 
 @media (min-width: $large-breakpoint) {
