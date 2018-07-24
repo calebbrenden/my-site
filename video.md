@@ -1,9 +1,9 @@
 ---
 layout: videos
-title: VIDEOS
+title: VIDEO
 sidebar_link: true
 ---
-<h1 class="page-title">VIDEOS</h1>
+<h1 class="page-title">VIDEO</h1>
 
 <div class="media">
   <div class="media__video">

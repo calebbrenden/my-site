@@ -131,11 +131,11 @@ body {
   /* Prevent vertical gaps */
   line-height: 0;
    
-  -webkit-column-count: 5;
+  -webkit-column-count: 2;
   -webkit-column-gap:   0px;
-  -moz-column-count:    5;
+  -moz-column-count:    2;
   -moz-column-gap:      0px;
-  column-count:         5;
+  column-count:         2;
   column-gap:           0px;  
 }
 
@@ -144,14 +144,6 @@ body {
   width: 100% !important;
   height: auto !important;
   padding: 1em;
-}
-
-@media (min-width: $large-breakpoint) {
-  #photos {
-  -moz-column-count:    2;
-  -webkit-column-count: 2;
-  column-count:         2;
-  }
 }
 
 @media (max-width: $large-breakpoint) {
