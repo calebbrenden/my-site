@@ -2,7 +2,6 @@
 layout: page
 title: CONTACT
 sidebar_link: true
-sidebar_sort_order: 5
 ---
 
 <h1 class="page-title">CONTACT</h1>
