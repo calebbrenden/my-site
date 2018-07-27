@@ -2,6 +2,7 @@
 layout: page
 title: ME
 sidebar_link: true
+sidebar_sort_order: 6
 ---
 
 <h1 class="page-title">ABOUT</h1>

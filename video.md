@@ -1,7 +1,6 @@
 ---
 layout: videos
 title: VIDEO
-sidebar_link: true
 ---
 <h1 class="page-title">VIDEO</h1>
 
