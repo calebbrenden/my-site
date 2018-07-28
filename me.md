@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: ME
 sidebar_link: true
 sidebar_sort_order: 6
