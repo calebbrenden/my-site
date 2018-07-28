@@ -12,16 +12,23 @@ sidebar_link: true
 
 <p align="center">I'll get back to you as soon as I can!</p>
 
-<!--
-<p align="center">I'll get back to you as soon as I can!</p>
-<div id="formwrap">
-	<a href="https://placeholder.com"><img src="http://via.placeholder.com/350x800"></a>
-	<div id="formview">
-		<form accept-charset="UTF-8" action="https://formkeep.com/f/XXXXXXXXXXXX" method="POST">
-  			<input type="email" name="email" placeholder="Your Email">
-  			<input type="text" name="name" placeholder="Your Name">
-  			<input type="hidden" name="utf8" value="✓">
-  			<button type="submit">Submit</button>
-		</form>
-	</div>
-</div> -->
+
+<form class="contact-form" action="https://formspree.io/your@email.com"
+      method="POST">
+    <input type="text" name="email" placeholder="Email Address">
+    <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
+    <input type="hidden" name="_next" value="<REDIRECTION LINK> ">
+    <input type="hidden" name="_subject" value="New Contact Form Submission">
+    <input type="text" name="_gotcha" style="display:none">
+    <input type="submit" value="Submit">
+</form>
+
+
+<form class="wj-contact" action="https://formspree.io/{{site.email}}" method="POST">
+    <input type="text" name="email" placeholder="Email Address">
+    <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
+    <input type="hidden" name="_next" value="<REDIRECTION LINK> ">
+    <input type="hidden" name="_subject" value="New Contact Form Submission">
+    <input type="text" name="_gotcha" style="display:none">
+    <input type="submit" value="Submit">
+</form>
