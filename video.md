@@ -1,5 +1,5 @@
 ---
-layout: videos
+layout: home
 title: VIDEO
 ---
 <h1 class="page-title">VIDEO</h1>
