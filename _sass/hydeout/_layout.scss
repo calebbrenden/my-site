@@ -184,17 +184,18 @@ form.contact-form input[type="text"], form.contact-form textarea[type="text"], f
   font-family: $root-font-family;
   font-weight: 300;
   font-style: normal;
-  font-size: $root-font-size;
+  font-size: 1rem;
+  color: $gray-2;
   line-height: $root-line-height;
   width: 100%;
   vertical-align: middle;
   margin-top: 0.25em;
   margin-bottom: 0.25em;
-  padding: 0.1em;
+  padding: 0.2em;
   border: solid $gray-5;
   border-width: 3px;
   background: $gray-1;
-  &:active {
+  &:focus {
     background-color: #fff;
   }
 }
