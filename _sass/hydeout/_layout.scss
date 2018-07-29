@@ -193,6 +193,7 @@ form.contact-form input[type="text"], form.contact-form textarea[type="text"], f
   padding: 0.25em;
   border: solid $gray-5;
   border-width: 3px;
+  background: $gray-2;
 }
 
 form.contact-form input[type="submit"] {
@@ -203,10 +204,11 @@ form.contact-form input[type="submit"] {
   line-height: $root-line-height;
   color: #000;
   text-align: center;
-  border: solid #23F0C7;
+  border: solid #158C74;
   border-width: 3px 3px 6px 3px;
   border-radius: 0px;
-  width: 100%;
+  width: 25%;
+  float: left;
   background: $body-bg;
   margin-top: 0.25em;
   margin-bottom: 0.25em;
@@ -214,7 +216,7 @@ form.contact-form input[type="submit"] {
   padding: 0.25em;
 
   &:hover {
-    background-color: #23F0C7;
+    background-color: #158C74;
     color: #fff;
   }
 }
