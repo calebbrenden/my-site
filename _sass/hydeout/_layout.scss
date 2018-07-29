@@ -190,10 +190,13 @@ form.contact-form input[type="text"], form.contact-form textarea[type="text"], f
   vertical-align: middle;
   margin-top: 0.25em;
   margin-bottom: 0.25em;
-  padding: 0.25em;
+  padding: 0.1em;
   border: solid $gray-5;
   border-width: 3px;
   background: $gray-1;
+  &:active {
+    background-color: #fff;
+  }
 }
 
 form.contact-form input[type="submit"] {
@@ -450,7 +453,7 @@ form.contact-form input[type="submit"] {
     }
 
     > * {
-      max-width: 40rem;
+      max-width: 35rem;
       padding: 0;
     }
   }
