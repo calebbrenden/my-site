@@ -185,7 +185,7 @@ form.contact-form input[type="text"], form.contact-form textarea[type="text"], f
   font-weight: 300;
   font-style: normal;
   font-size: 1rem;
-  color: $gray-2;
+  color: $gray-6;
   line-height: $root-line-height;
   width: 100%;
   vertical-align: middle;
@@ -197,7 +197,6 @@ form.contact-form input[type="text"], form.contact-form textarea[type="text"], f
   background: $gray-1;
   &:focus {
     background-color: #fff;
-    color: $gray-6;
   }
 }
 
