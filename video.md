@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: video
 title: VIDEO
 ---
 <h1 class="page-title" style="padding-top: 1rem;">VIDEO</h1>
