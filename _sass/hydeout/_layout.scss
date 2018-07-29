@@ -185,8 +185,7 @@ form.contact-form input[type="text"], form.contact-form textarea[type="text"], f
   margin-top: 0.25em;
   margin-bottom: 0.25em;
   padding: 0.5em;
-  border-style: solid;
-  border-color: #fff;
+  border: solid #000;
   border-width: 3px;
 }
 
@@ -198,13 +197,13 @@ form.contact-form input[type="submit"] {
   line-height: $root-line-height;
   color: #000;
   text-align: center;
-  display: inline-block;
   border: solid #000;
   border-width: 3px 3px 6px 3px;
   border-radius: 0px;
   width: 100%;
   background: $body-bg;
   margin: 0rem;
+  cursor: pointer;
 
   &:hover {
     background-color: #000;
