@@ -2,7 +2,7 @@
 layout: home
 title: VIDEO
 ---
-<h1 class="page-title">VIDEO</h1>
+<h1 class="page-title" style="padding-top: 1rem;">VIDEO</h1>
 
 <div class="media">
   <div class="media__video">

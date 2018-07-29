@@ -197,6 +197,7 @@ form.contact-form input[type="text"], form.contact-form textarea[type="text"], f
   background: $gray-1;
   &:focus {
     background-color: #fff;
+    color: $gray-6;
   }
 }
 
