@@ -54,14 +54,16 @@ body {
   max-width: 50%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
    #left-div { 
     float: none;
     width:auto;
+    max-width: none;
   }
    #right-div { 
     float: none;
     width: auto;
+    max-width: none;
   }
 }
 
