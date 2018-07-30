@@ -44,18 +44,24 @@ body {
 #left-div {
   float:left; 
   padding: $section-spacing;
-  max-width: 50%
+  max-width: 50%;
 }
 
 #right-div {
-  overflow:hidden;
+  float: right
+  overflow: hidden;
   padding: $section-spacing;
+  max-width: 50%;
 }
 
 @media screen and (max-width: 800px) {
    #left-div { 
     float: none;
     width:auto;
+  }
+   #right-div { 
+    float: none;
+    width: auto;
   }
 }
 
