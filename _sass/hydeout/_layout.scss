@@ -37,10 +37,26 @@ body {
   min-height: 100vh;
 }
 
-.split-div {
-  width: 50%;
+#split-div-wrapper {
+  overflow: hidden 
+}
+
+#left-div {
+  float:left; 
   padding: $section-spacing;
-  
+  max-width: 50%
+}
+
+#right-div {
+  overflow:hidden;
+  padding: $section-spacing;
+}
+
+@media screen and (max-width: 800px) {
+   #left-div { 
+    float: none;
+    width:auto;
+  }
 }
 
 #sidebar {
