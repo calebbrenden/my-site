@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: video
 title: ME
 sidebar_link: true
 ---
