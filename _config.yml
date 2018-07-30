@@ -5,7 +5,7 @@ parse_block_html: true
 
 # Setup
 title:            CALEB BRENDEN
-tagline:          HEY!
+tagline:          'student, web designer, photographer. albuquerque, new mexico.'
 description:      'student, web designer, photographer. albuquerque, new mexico.'
 url:              https://calebbrenden.github.io/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
