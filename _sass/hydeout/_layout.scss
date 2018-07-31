@@ -218,7 +218,7 @@ form.contact-form input[type="text"], form.contact-form textarea[type="text"], f
   vertical-align: middle;
   margin-top: 0.25em;
   margin-bottom: 0.25em;
-  padding: 0.25em;
+  padding: 0.3em;
   border: solid $gray-5;
   border-width: 1px;
   background: $gray-1;
@@ -244,7 +244,7 @@ form.contact-form input[type="submit"] {
   margin-top: 0.25em;
   margin-bottom: 0.25em;
   cursor: pointer;
-  padding: 0.25em;
+  padding: 0.3em;
 
   &:hover {
     background-color: #158C74;
