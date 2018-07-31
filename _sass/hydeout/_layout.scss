@@ -178,11 +178,6 @@ body {
   height: auto !important;
   padding: 1em;
   margin: 0rem;
-  opacity: 0;
-  @include transition(opacity 0.2s ease);
-  &.loaded {
-    opacity: 1;
-  }
 }
 
 @media (max-width: 1200px) {
