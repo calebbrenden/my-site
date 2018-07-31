@@ -7,7 +7,7 @@ parse_block_html: true
 title:            CALEB BRENDEN
 tagline:          'student, web designer, photographer. albuquerque, new mexico.'
 description:      'student, web designer, photographer. albuquerque, new mexico.'
-url:              https://calebbrenden.github.io/
+url:              https://calebbrenden.co
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
