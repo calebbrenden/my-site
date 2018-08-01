@@ -2,7 +2,7 @@
 layout: video
 title: ME
 sidebar_link: true
-description: this is a page describing who i am and what i do: freelance photographer from albuquerque, new mexico.
+description: this is who i am and what i do.
 author: Caleb Brenden
 ---
 
