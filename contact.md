@@ -2,13 +2,13 @@
 layout: page
 title: CONTACT
 sidebar_link: true
-description: this is a page with a contact form to request photo or video services. this will send an email directly to me.
+description: this is a page with a contact form to request photography or videography services. this will send an email directly to me.
 author: Caleb Brenden
 ---
 
 <h1 class="page-title">CONTACT</h1>
 
-<p align="center">If you need to get in touch with me, please fill out the form below. Please include your name, email, and message. I'll get back to you as soon as I can!
+<p align="center">To get in touch with Caleb or inquire about photography or videography sessions, fill out the form below! Please be sure to include your name, email, and what type of work you are looking for.</p>
 
 
 <form class="contact-form" action="https://formspree.io/calebbrenden@unm.edu.com"
