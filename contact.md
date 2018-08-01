@@ -11,7 +11,7 @@ author: Caleb Brenden
 <p align="center">To get in touch with Caleb or inquire about photography or videography sessions, fill out the form below! Please be sure to include your name, email, and what type of work you are looking for. Thank you in advance!</p>
 
 
-<form class="contact-form" action="https://formspree.io/calebbrenden@unm.edu.com"
+<form class="contact-form" action="https://formspree.io/caleb.brenden1@gmail.com"
       method="POST">
     <input type="text" name="name" placeholder="Your Name">
     <input type="email" name="_replyto" placeholder="Your Email Address">
