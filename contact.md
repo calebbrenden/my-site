@@ -2,6 +2,8 @@
 layout: page
 title: CONTACT
 sidebar_link: true
+description: this is a page with a contact form to request photo or video services. this will send an email directly to me.
+author: Caleb Brenden
 ---
 
 <h1 class="page-title">CONTACT</h1>
