@@ -1,6 +1,8 @@
 ---
 layout: video
 title: VIDEO
+description: this is my video portfolio
+author: Caleb Brenden
 ---
 <h1 class="page-title" style="padding-top: 1rem;">VIDEO</h1>
 
