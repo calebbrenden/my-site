@@ -47,14 +47,18 @@ body {
 
 #left-div {
   float:left; 
-  padding: $section-spacing;
+  padding-left: $section-spacing;
+  padding-right: $section-spacing;
+  padding-bottom: $section-spacing;
   max-width: 50%;
 }
 
 #right-div {
   float: right;
   overflow: hidden;
-  padding: $section-spacing;
+  padding-left: $section-spacing;
+  padding-right: $section-spacing;
+  padding-bottom: $section-spacing;
   max-width: 50%;
 }
 
