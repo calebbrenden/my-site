@@ -531,7 +531,19 @@ form.contact-form input[type="submit"] {
   }
 }
 
+/* ADDED TO FIX NONCONFORMING VIDEOS LINK */
+.page-link {
+  font-family: 'Poiret One', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #C6C6C6;
+  text-decoration: none;
 
+  &:hover,
+  &:focus,
+  &:active {
+    color: #000;
+  }
 
 
 /*  
