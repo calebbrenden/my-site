@@ -17,5 +17,5 @@ author: Caleb Brenden
     <input type="email" name="_replyto" placeholder="Your Email Address">
     <textarea type="text" name="message" rows="10" placeholder="Your Message"></textarea>
     <input type="hidden" name="_subject" value="New Submission!">
-    <input type="submit" value="Submit">
+    <input type="submit" value="SUBMIT">
 </form>
