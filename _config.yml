@@ -5,8 +5,8 @@ parse_block_html: true
 
 # Setup
 title:            CALEB BRENDEN
-tagline:          'student, web designer, photographer. albuquerque, new mexico.'
-description:      'student, web designer, photographer. albuquerque, new mexico.'
+tagline:          'caleb brenden. this is my work.'
+description:      'caleb brenden. this is my work.'
 url:              https://calebbrenden.co
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -43,7 +43,7 @@ sidebar_blog_link:  '/thoughts'   # By default, your home page is your blog
                                 # to enable a separate blog link.
                               
 github:
-  repo:             https://github.com/calebbreadsticks
+  repo:             https://github.com/calebbrenden
 
 encoding: UTF-8
 
