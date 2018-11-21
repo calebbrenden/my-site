@@ -81,7 +81,9 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
-  padding: $section-spacing;
+  padding-left: $section-spacing;
+    padding-right: $section-spacing;
+      padding-top: $section-spacing;
 
   .site-title {
     font-family: 'Poiret One', sans-serif;
@@ -289,9 +291,7 @@ form.contact-form input[type="submit"] {
   text-align: center;
   background: $body-bg;
   color: $body-color;
-  padding-left: $section-spacing;
-  padding-right: $section-spacing;
-  padding-bottom: $section-spacing;
+  padding: $section-spacing;
   width: 100%;
 }
 
@@ -581,8 +581,9 @@ a {
   max-width: 100%;
   flex-flow: row wrap;
   justify-content: center;
-  padding: 2rem;
-  /* margin-top: 1rem; */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
 
       /* full screen mode */
   @media (min-width: $large-breakpoint) {
