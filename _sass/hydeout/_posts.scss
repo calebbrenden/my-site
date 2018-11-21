@@ -27,13 +27,13 @@ article + *, .post-body ~ section {
 .post-title {
   color: $heading-color;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .post-title a {
   color: $heading-color;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: none;
   &:hover {
     text-decoration: line-through;
   }
