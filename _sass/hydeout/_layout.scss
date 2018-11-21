@@ -289,7 +289,9 @@ form.contact-form input[type="submit"] {
   text-align: center;
   background: $body-bg;
   color: $body-color;
-  padding: $section-spacing;
+  padding-left: $section-spacing;
+  padding-right: $section-spacing;
+  padding-bottom: $section-spacing;
   width: 100%;
 }
 

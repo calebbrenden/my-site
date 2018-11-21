@@ -8,7 +8,7 @@ author: Caleb Brenden
 
 <h1 class="page-title">CONTACT</h1>
 
-<p align="center">To get in touch with Caleb for photography sessions or web design, fill out the form below! Please be sure to include your name, email, and what type of work you are looking for. Thank you in advance!</p>
+<p align="center">To get in touch with Caleb, fill out the form below! Please be sure to include your name, email, and what type of work you are looking for. Thank you in advance!</p>
 
 
 <form class="contact-form" action="https://formspree.io/caleb.brenden1@gmail.com"
