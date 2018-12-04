@@ -1,7 +1,7 @@
 ---
 layout: home
 title: STICKERS
-sidebar_link: true
+sidebar_link: false
 description: stickers.
 author: Caleb Brenden
 ---
