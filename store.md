@@ -1,6 +1,6 @@
 ---
-layout: home
-title: STORE
+layout: video
+title: NEW MEXICO NATIONAL PARKS & MONUMENTS STICKER SHEET
 sidebar_link: false
 description: store.
 author: Caleb Brenden

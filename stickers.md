@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: video
 title: STICKERS
 sidebar_link: false
 description: stickers.
