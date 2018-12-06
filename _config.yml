@@ -33,6 +33,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
+  - lightbox
 
 # Custom vars
 version:            3.6.0
