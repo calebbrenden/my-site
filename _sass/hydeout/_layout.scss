@@ -291,7 +291,10 @@ form.contact-form input[type="submit"] {
   text-align: center;
   background: $body-bg;
   color: $body-color;
-  padding: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 2rem;
   width: 100%;
 }
 
