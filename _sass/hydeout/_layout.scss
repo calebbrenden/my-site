@@ -595,7 +595,7 @@ a {
   }
 }
 
-.grow { -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
+/*.grow { -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; } */
 .grow:hover { -webkit-transform: scale(1.5); -ms-transform: scale(1.5); transform: scale(1.5); }
 
 #sidebar nav > * {
