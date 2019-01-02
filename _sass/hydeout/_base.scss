@@ -55,11 +55,11 @@ img {
   width: 100%;
   height: auto; 
   margin: 0rem 0rem 1rem 0rem;
-
+  /*
   animation: fadein 2s;
-  -moz-animation: fadein 2s; /* Firefox */
-  -webkit-animation: fadein 2s; /* Safari and Chrome */
-  -o-animation: fadein 2s; /* Opera */
+  -moz-animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -o-animation: fadein 2s; */
 }
 
 @keyframes fadein {
