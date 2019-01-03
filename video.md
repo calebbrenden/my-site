@@ -1,6 +1,7 @@
 ---
 layout: video
 title: VIDEO
+sidebar_link: true
 description: this is caleb brenden's video portfolio.
 author: Caleb Brenden
 ---
