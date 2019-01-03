@@ -2,6 +2,7 @@
 layout: page
 title: CONTACT
 sidebar_link: true
+sidebar_sort_order: 4
 description: this is a page with a contact form to request photography or videography services. this will send an email directly to caleb.
 author: Caleb Brenden
 ---

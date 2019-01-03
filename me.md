@@ -2,6 +2,7 @@
 layout: video
 title: ME
 sidebar_link: true
+sidebar_sort_order: 5
 description: this is who i am and what i do.
 author: Caleb Brenden
 ---
