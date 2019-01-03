@@ -6,7 +6,7 @@ sidebar_sort_order: 2
 description: this is caleb brenden's video portfolio.
 author: Caleb Brenden
 ---
-<h1 class="page-title" style="padding-top: 1rem;">VIDEO</h1>
+<h1 class="page-title" style="padding-top: 1rem;">MOTION</h1>
 
 <div class="media">
   <div class="media__video">
