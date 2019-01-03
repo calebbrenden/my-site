@@ -3,6 +3,10 @@
     <a class="home-link {% if page.url == '/' %} active{% endif %}"
         href="{{ site.baseurl }}/">WORK</a>
   {% endif %}
+
+<a class="page-link"
+  href="{{site.baseurl}}/video.html">VIDEO</a>
+  
 	<!--
   {% if site.sidebar_blog_link %}
   <a class="page-link {% if page.url == site.sidebar_blog_link %} active{% endif %}"
@@ -14,7 +18,7 @@
     The code below dynamically generates a sidebar nav of pages with
     `sidebar_link: true` in the front-matter. See readme for usage.
   {% endcomment %}
-	
+
   {% include custom-nav-links.html %}
 	
   {% include page-links.html %}
