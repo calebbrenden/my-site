@@ -2,6 +2,7 @@
 layout: video
 title: VIDEO
 sidebar_link: true
+sidebar_sort_order: 2
 description: this is caleb brenden's video portfolio.
 author: Caleb Brenden
 ---
