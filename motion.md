@@ -1,6 +1,6 @@
 ---
 layout: video
-title: VIDEO
+title: MOTION
 sidebar_link: true
 sidebar_sort_order: 2
 description: this is caleb brenden's video portfolio.
