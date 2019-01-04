@@ -2,6 +2,7 @@
 layout: home
 title: DESIGN
 sidebar_link: true
+sidebar_sort_order: 3
 description: graphic design samples.
 author: Caleb Brenden
 ---
