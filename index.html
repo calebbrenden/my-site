@@ -8,42 +8,18 @@ sidebar_sort_order: 1
 
 <!-- horizontal scrolling gallery -->
 <!--
-<h1 class="page-title" style="padding-top: 1rem;">WORK</h1>
+<h1 class="page-title" style="padding-top: 1rem;">PHOTO</h1>
 <section class="gallery">
   <div class="gallery-content"><img src="{{ site.baseurl }}/images/samples/iceland-plane.jpg" alt="iceland plane">
 </div>
   <div class="gallery-content"><img src="{{ site.baseurl }}/images/samples/gibraltar-flowers.jpg" alt="gibraltar flowers">
 </div>
-  <div class="gallery-content"><img src="{{ site.baseurl }}/images/samples/iceland-waterfall.jpg" alt="iceland waterfall">
-</div>
-  <div class="gallery-content"><img src="{{ site.baseurl }}/images/samples/zofia-nerja.jpg" alt="zofia-nerja">
-</div>
-  <div class="gallery-content">  <img src="{{ site.baseurl }}/images/samples/canar-flowers.jpg" alt="canar flowers">
-</div>
-  <div class="gallery-content">  <img src="{{ site.baseurl }}/images/samples/sierra-nevada.jpg" alt="sierra nevada">
-</div>
-  <div class="gallery-content">  <img src="{{ site.baseurl }}/images/samples/asia-poland.jpg" alt="asia poland">
-</div>
-  <div class="gallery-content">  <img src="{{ site.baseurl }}/images/samples/iceland-sheep.jpg" alt="iceland sheep">
-</div>
-  <div class="gallery-content">  <img src="{{ site.baseurl }}/images/samples/florence-man-walking.jpg" alt="florence man walking">
-</div>
-  <div class="gallery-content">  <img src="{{ site.baseurl }}/images/samples/iceland-house.jpg" alt="iceland house">
-</div>
-  <div class="gallery-content">  <img src="{{ site.baseurl }}/images/samples/albuquerque-rainstorm.jpg" alt="albuquerque rainstorm">
-</div>
-  <div class="gallery-content">  <img src="{{ site.baseurl }}/images/samples/iceland-pier.jpg" alt="iceland pier">
-</div>
-  <div class="gallery-content">  <img src="{{ site.baseurl }}/images/samples/daniel-iceland-waterfall.jpg" alt="iceland waterfall">
-</div>
-  <div class="gallery-content">  <img src="{{ site.baseurl }}/images/samples/nat-over-city.jpg" alt="nat over city">
-</div>
-  <div class="gallery-content">  <img src="{{ site.baseurl }}/images/samples/daniel-boats.jpg" alt="daniel boats">
-</div>
 </section> 
 -->
 
 <!-- masonry gallery -->
+<body onload="myFunction()" style="margin:0;">
+<div id="loader"></div>
 <h1 class="page-title homepage-title">PHOTO</h1>
 <section id="photos">
   <a href="{{ site.baseurl }}/images/samples/aspen.jpg"><img src="{{ site.baseurl }}/images/samples/aspen.jpg" alt="aspen"></a>
@@ -71,3 +47,13 @@ sidebar_sort_order: 1
   <a href="{{ site.baseurl }}/images/samples/river-milky-way.jpg"><img src="{{ site.baseurl }}/images/samples/river-milky-way.jpg" alt="river milky way"></a>
   <a href="{{ site.baseurl }}/images/samples/waterfall-2.jpg"><img src="{{ site.baseurl }}/images/samples/waterfall-2.jpg" alt="waterfall 2"></a>
 </section>
+<script>
+var myVar;
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("photos").style.display = "block";
+}
+</script>
