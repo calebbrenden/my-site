@@ -12,7 +12,7 @@ author: Caleb Brenden
 <div id="split-div-wrapper">
 
 <div id="left-div">
-<img src="{{ site.baseurl }}/images/me-krakow.jpg" alt="that's me, how cute.">
+<img src="{{ site.baseurl }}/images/caleb.jpg" alt="that's me, how cute.">
 </div>
 
 <div id="right-div">
