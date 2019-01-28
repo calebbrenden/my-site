@@ -10,7 +10,7 @@ author: Caleb Brenden
   <div id="left-div">
     <img src="{{ site.baseurl }}/images/sticker-sheet-temp.png" alt="stickers">
   </div>
-    <div id="right-div" "paypal">
+    <div id="right-div">
     	<!--  PAYPAL "ADD TO CART" BUTTON  -->
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
