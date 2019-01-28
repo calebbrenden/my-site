@@ -5,16 +5,14 @@ sidebar_link: false
 description: store.
 author: Caleb Brenden
 ---
-<h1 class="page-title homepage-title">STORE</h1>
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="E2Q77EDQHJM2A">
+<input type="hidden" name="hosted_button_id" value="UQA4V6R4QVEW6">
 <table>
 <tr><td><input type="hidden" name="on0" value="Stickers">Stickers</td></tr><tr><td><select name="os0">
-	<option value="NM National Parks 8x10" Sticker Sheet">NM National Parks 8x10" Sticker Sheet $9.99 USD</option>
-	<option value="Albuquerque, NM 2.3x3" Die Cut Sticker">Albuquerque, NM 2.3x3" Die Cut Sticker $3.00 USD</option>
-	<option value="Shiprock, NM (Daytime) 3" Circle Sticker">Shiprock, NM (Daytime) 3" Circle Sticker $3.00 USD</option>
-	<option value="Shiprock, NM (Nighttime) 3" Circle Sticker">Shiprock, NM (Nighttime) 3" Circle Sticker $3.00 USD</option>
+	<option value="NM Parks">NM Parks $9.99 USD</option>
+	<option value="Shiprock">Shiprock $3.00 USD</option>
+	<option value="ABQ">ABQ $3.00 USD</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD">
