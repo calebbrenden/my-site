@@ -10,15 +10,17 @@ author: Caleb Brenden
 <input type="hidden" name="hosted_button_id" value="UQA4V6R4QVEW6">
 <table>
 <tr><td><input type="hidden" name="on0" value="Stickers">Stickers</td></tr><tr><td><select name="os0">
-	<option value="NM Parks">NM Parks $9.99 USD</option>
-	<option value="Shiprock">Shiprock $3.00 USD</option>
-	<option value="ABQ">ABQ $3.00 USD</option>
+	<option value="NM National Parks">NM National Parks $9.99 USD</option>
+	<option value="Albuquerque, NM">Albuquerque, NM $3.00 USD</option>
+	<option value="Shiprock, NM (Daytime)">Shiprock, NM (Daytime) $3.00 USD</option>
+	<option value="Shiprock, NM (Nighttime)">Shiprock, NM (Nighttime) $3.00 USD</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
+
 
 
 
