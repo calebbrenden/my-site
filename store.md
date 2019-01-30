@@ -6,6 +6,28 @@ description: store.
 author: Caleb Brenden
 ---
 <img src="{{ site.baseurl }}/images/sticker-sheet-temp.png" alt="stickers">
+<div class="w3-content" style="max-width:1200px">
+  <img class="mySlides" src="{{ site.baseurl }}/images/sticker-sheet-temp.png" style="width:100%">
+  <img class="mySlides" src="{{ site.baseurl }}/images/sticker-sheet-temp.png" style="width:100%">
+  <img class="mySlides" src="{{ site.baseurl }}/images/sticker-sheet-temp.png" style="width:100%">
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s4">
+      <img class="demo w3-opacity" src="img_nature_wide.jpg"
+      style="width:100%" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity" src="img_snow_wide.jpg"
+      style="width:100%;display:none" onclick="currentDiv(2)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity" src="img_mountains_wide.jpg"
+      style="width:100%;display:none" onclick="currentDiv(3)">
+    </div>
+  </div>
+</div>
+
+
+<!-- PAYPAL BUTTON -->
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="UQA4V6R4QVEW6">
@@ -24,9 +46,5 @@ author: Caleb Brenden
 <p>All of my designs are printed on durable vinyl stickers, which means they are UV protected, waterproof, and the designs don’t rub off!</p>
 <h2>New Mexico National Parks & Monuments Sticker Sheet</h2>
 <p>Printed by my beautiful friends over at Sticker Ninja, this sticker sheet is 8"x10", and consists of 13 individual stickers.</p>
-
-
-
-
 
 
