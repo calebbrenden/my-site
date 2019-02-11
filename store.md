@@ -5,26 +5,13 @@ sidebar_link: false
 description: store.
 author: Caleb Brenden
 ---
-<img src="{{ site.baseurl }}/images/sticker-sheet-temp.png" alt="stickers">
-<div class="w3-content" style="max-width:1200px">
-  <img class="mySlides" src="{{ site.baseurl }}/images/sticker-sheet-temp.png" style="width:100%">
-  <img class="mySlides" src="{{ site.baseurl }}/images/sticker-sheet-temp.png" style="width:100%">
-  <img class="mySlides" src="{{ site.baseurl }}/images/sticker-sheet-temp.png" style="width:100%">
-  <div class="w3-row-padding w3-section">
-    <div class="w3-col s4">
-      <img class="demo w3-opacity" src="img_nature_wide.jpg"
-      style="width:100%" onclick="currentDiv(1)">
-    </div>
-    <div class="w3-col s4">
-      <img class="demo w3-opacity" src="img_snow_wide.jpg"
-      style="width:100%;display:none" onclick="currentDiv(2)">
-    </div>
-    <div class="w3-col s4">
-      <img class="demo w3-opacity" src="img_mountains_wide.jpg"
-      style="width:100%;display:none" onclick="currentDiv(3)">
-    </div>
-  </div>
-</div>
+<section id="photos">
+  <a href="{{ site.baseurl }}/images/samples/little-red-house.jpg"><img src="{{ site.baseurl }}/images/samples/little-red-house.jpg" alt="little red house"></a>
+  <a href="{{ site.baseurl }}/images/samples/waterfall.jpg"><img src="{{ site.baseurl }}/images/samples/waterfall.jpg" alt="waterfall"></a>
+  <a href="{{ site.baseurl }}/images/samples/albuquerque-rainstorm.jpg"><img src="{{ site.baseurl }}/images/samples/albuquerque-rainstorm.jpg" alt="albuquerque rainstorm"></a>
+  <a href="{{ site.baseurl }}/images/samples/blizzard.jpg"><img src="{{ site.baseurl }}/images/samples/blizzard.jpg" alt="blizzard"></a>
+  <a href="{{ site.baseurl }}/images/samples/pier.jpg"><img src="{{ site.baseurl }}/images/samples/pier.jpg" alt="pier"></a>
+</section>
 
 
 <!-- PAYPAL BUTTON -->
@@ -47,4 +34,24 @@ author: Caleb Brenden
 <h2>New Mexico National Parks & Monuments Sticker Sheet</h2>
 <p>Printed by my beautiful friends over at Sticker Ninja, this sticker sheet is 8"x10", and consists of 13 individual stickers.</p>
 
+<script>
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
 
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
