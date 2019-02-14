@@ -6,11 +6,11 @@ description: store.
 author: Caleb Brenden
 ---
 <section id="photos">
-  <a href="{{ site.baseurl }}/images/samples/little-red-house.jpg"><img src="{{ site.baseurl }}/images/samples/little-red-house.jpg" alt="little red house"></a>
-  <a href="{{ site.baseurl }}/images/samples/waterfall.jpg"><img src="{{ site.baseurl }}/images/samples/waterfall.jpg" alt="waterfall"></a>
-  <a href="{{ site.baseurl }}/images/samples/albuquerque-rainstorm.jpg"><img src="{{ site.baseurl }}/images/samples/albuquerque-rainstorm.jpg" alt="albuquerque rainstorm"></a>
-  <a href="{{ site.baseurl }}/images/samples/blizzard.jpg"><img src="{{ site.baseurl }}/images/samples/blizzard.jpg" alt="blizzard"></a>
-  <a href="{{ site.baseurl }}/images/samples/pier.jpg"><img src="{{ site.baseurl }}/images/samples/pier.jpg" alt="pier"></a>
+  <img src="{{ site.baseurl }}/images/design/sticker-sheet.jpg" alt="sticker sheet">
+  <img src="{{ site.baseurl }}/images/design/abq-sticker.jpg" alt="abq sticker">
+  <img src="{{ site.baseurl }}/images/design/santa-fe-day-sticker.jpg" alt="santa fe daytime sticker">
+  <img src="{{ site.baseurl }}/images/design/shiprock-day-sticker.jpg" alt="shiprock daytime sticker">
+  <img src="{{ site.baseurl }}/images/design/shiprock-night-sticker.jpg" alt="shiprock nighttime sticker">
 </section>
 
 
