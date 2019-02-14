@@ -13,7 +13,7 @@ author: Caleb Brenden
 
 
 
-<p>All of my designs are printed on durable vinyl stickers, which means they are UV protected, waterproof, and the designs don’t rub off!</p>a
+<p>All of my designs are printed on durable vinyl stickers, which means they are UV protected, waterproof, and the designs don’t rub off!</p>
 <h2>"ABQ"</h2>
 <img src="{{ site.baseurl }}/images/design/abq-sticker.jpg" alt="abq sticker">
 <p>2.33"x3" die cut sticker is great for slapping on your water bottle, laptop, or whatever the heck else you want!</p>
