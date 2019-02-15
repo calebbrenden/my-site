@@ -5,7 +5,7 @@ sidebar_link: false
 description: store.
 author: Caleb Brenden
 ---
-<h1 class="page-title" style="padding-top: 1rem;">STICKERS</h1>
+<h1 class="page-title" style="padding-top: 1rem;">STORE</h1>
 <!--
 <h2>"ABQ"</h2>
 <img src="{{ site.baseurl }}/images/design/abq-sticker.jpg" alt="abq sticker">
