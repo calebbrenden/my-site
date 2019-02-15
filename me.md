@@ -15,7 +15,7 @@ author: Caleb Brenden
 
 <figure class="image">
 	<img src="{{ site.baseurl }}/images/caleb.jpg" alt="that's me, how cute.">
-  <figcaption>Photo by Daniel Brenden</figcaption>
+  <figcaption><em>Photo by Daniel Brenden</em></figcaption>
 </figure>
 
 

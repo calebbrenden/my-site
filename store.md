@@ -1,7 +1,7 @@
 ---
 layout: video
 title: STORE
-sidebar_link: false
+sidebar_link: true
 description: store.
 author: Caleb Brenden
 ---
