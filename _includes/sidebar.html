@@ -5,10 +5,8 @@
         {% unless page.url == "/" %}
           <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
         {% endunless %}
-
-<a class="site-title" title="logo" aria-label="logo" href="https://calebbrenden.co">
-  <img src="{{ site.baseurl }}/images/logo.svg">
-</a>
+        <img src="{{ site.baseurl }}/images/logo.svg">
+      </a>
     </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
     <!-- <p class="lead">{{ site.description }}</p> -->
   </header>
