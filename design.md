@@ -14,11 +14,13 @@ author: Caleb Brenden
   <img src="{{ site.baseurl }}/images/design/carlsbad-day.png" alt="carlsbad day">
   <img src="{{ site.baseurl }}/images/design/white-sands-day.png" alt="white sands day">
   <img src="{{ site.baseurl }}/images/design/taos-day.png" alt="taos day">
+  <img src="{{ site.baseurl }}/images/design/yosemite-day.png" alt="yosemite day">
   <img src="{{ site.baseurl }}/images/design/santa-fe-night.png" alt="santa fe night">
   <img src="{{ site.baseurl }}/images/design/shiprock-night.png" alt="shiprock night">
   <img src="{{ site.baseurl }}/images/design/tent-rocks-night.png" alt="tent rocks night">
   <img src="{{ site.baseurl }}/images/design/carlsbad-night.png" alt="carlsbad night">
   <img src="{{ site.baseurl }}/images/design/white-sands-night.png" alt="white sands night">
   <img src="{{ site.baseurl }}/images/design/taos-night.png" alt="taos night">
+  <img src="{{ site.baseurl }}/images/design/yosemite-night.png" alt="yosemite night">
 
 </section>
