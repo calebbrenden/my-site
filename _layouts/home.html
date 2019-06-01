@@ -5,6 +5,14 @@
 
   <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
 
+  <script src="/js/loader.js"></script>
+
+
+  <div id="overlay">
+    <div id="progstat"></div>
+    <div id="progress"></div>
+  </div>
+
     {% include sidebar.html %}
 
     <main class="media-wrap">
