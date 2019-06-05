@@ -1,11 +1,11 @@
 <div id="sidebar">
   <header>
     <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
+      <img src="{{ site.baseurl }}/images/logo.svg" alt="logo" class="site-title">
       <a href="{{ site.baseurl }}/">
         {% unless page.url == "/" %}
           <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
         {% endunless %}
-        <img src="{{ site.baseurl }}/images/logo.svg" alt="logo" class="site-title">
       </a>
     </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
     <!-- <p class="lead">{{ site.description }}</p> -->
