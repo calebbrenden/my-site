@@ -1,6 +1,6 @@
 <div id="sidebar">
   <header>
-    <{% if page.layout == "home" %}<img src="{{ site.baseurl }}/images/logo.svg" alt="logo" class="site-title">{% else %}div{% endif %} class="site-title">
+    {% if page.layout == "home" %}<img src="{{ site.baseurl }}/images/logo.svg" alt="logo"<class="site-title">{% else %}div{% endif %} class="site-title">
       <a href="{{ site.baseurl }}/">
         {% unless page.url == "/" %}
           <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
