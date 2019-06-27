@@ -1,6 +1,7 @@
 <div id="sidebar">
   <header>
-    {% if page.layout == "home" %}<img src="{{ site.baseurl }}/images/logo.svg" alt="logo"<class="site-title">{% endif %}
+    <{% if page.layout == "home" %}h1{% else %}div{% endif %} class="site-title">
+      <img src="{{ site.baseurl }}/images/logo.svg" alt="logo" class="site-title">
       <a href="{{ site.baseurl }}/">
         {% unless page.url == "/" %}
           <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
@@ -14,3 +15,5 @@
  <!--  REMOVED COPYRIGHT.HTML TO PUT IN CUSTOM FOOTER 
  {% include copyright.html %} -->
 </div>
+
+
